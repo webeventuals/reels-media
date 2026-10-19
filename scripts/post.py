@@ -1,6 +1,6 @@
 """Post each incoming/<id>/ reel to IG, Threads, FB. Per-platform state in state/<id>.json makes reruns idempotent.
 Every API call's raw response is appended to publish_log/<id>_<ts>.json (tokens are never logged)."""
-import os, glob, json, time, datetime, requests
+import os, glob, json, time, datetime, shutil, requests
 
 E_ = os.environ
 REPO = "webeventuals/reels-media"
@@ -89,3 +89,6 @@ for d in sorted(glob.glob("incoming/*/")):
     json.dump(st, open(sf, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
     stamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
     json.dump(log, open(f"publish_log/{rid}_{stamp}.json", "w", encoding="utf-8"), indent=1, ensure_ascii=False)
+    if all(st.get(n, {}).get("ok") for n in ("instagram", "threads", "facebook")):
+        shutil.rmtree(d)  # all three published: remove video and meta from the public repo
+        print("cleaned", d)
