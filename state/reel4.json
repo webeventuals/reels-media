@@ -1,0 +1,17 @@
+{
+ "instagram": {
+  "ok": false,
+  "error": "instagram failed: {'status_code': 'ERROR', 'status': 'ERROR', 'id': '18099175430425006'}",
+  "at": "2026-10-20T14:16:01.979581"
+ },
+ "threads": {
+  "ok": true,
+  "ref": "https://www.threads.com/@web_eventuals/post/DeuBqTiCXEU",
+  "at": "2026-10-20T14:17:09.123649"
+ },
+ "facebook": {
+  "ok": true,
+  "ref": "1083943511187475",
+  "at": "2026-10-20T14:17:39.132193"
+ }
+}
