@@ -1,8 +1,8 @@
 {
  "instagram": {
-  "ok": false,
-  "error": "instagram failed: {'status_code': 'ERROR', 'status': 'ERROR', 'id': '18099176870425006'}",
-  "at": "2026-10-20T14:26:53.958627"
+  "ok": true,
+  "ref": "https://www.instagram.com/reel/DeuC8rBFS-Z/",
+  "at": "2026-10-20T14:29:07.054176"
  },
  "threads": {
   "ok": true,

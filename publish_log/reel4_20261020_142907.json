@@ -1,0 +1,93 @@
+[
+ {
+  "at": "2026-10-20T14:27:18.623528",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media",
+  "status": 200,
+  "response": {
+   "id": "18099177209425006"
+  }
+ },
+ {
+  "at": "2026-10-20T14:27:38.922793",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18099177209425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18099177209425006"
+  }
+ },
+ {
+  "at": "2026-10-20T14:27:59.232912",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18099177209425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18099177209425006"
+  }
+ },
+ {
+  "at": "2026-10-20T14:28:19.838706",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18099177209425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18099177209425006"
+  }
+ },
+ {
+  "at": "2026-10-20T14:28:39.988570",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18099177209425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18099177209425006"
+  }
+ },
+ {
+  "at": "2026-10-20T14:29:00.163562",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18099177209425006",
+  "status": 200,
+  "response": {
+   "status_code": "FINISHED",
+   "status": "FINISHED",
+   "id": "18099177209425006"
+  }
+ },
+ {
+  "at": "2026-10-20T14:29:06.868231",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media_publish",
+  "status": 200,
+  "response": {
+   "id": "18137499127630132"
+  }
+ },
+ {
+  "at": "2026-10-20T14:29:07.053341",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18137499127630132",
+  "status": 200,
+  "response": {
+   "permalink": "https://www.instagram.com/reel/DeuC8rBFS-Z/",
+   "id": "18137499127630132"
+  }
+ }
+]
