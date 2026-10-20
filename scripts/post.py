@@ -37,8 +37,10 @@ def poll(call, platform, url, params, done, bad, tries=30, wait=20):
 def ig(call, m, vurl):
     B = "https://graph.instagram.com/v21.0"
     t, u = E_["IG_ACCESS_TOKEN"], E_["IG_USER_ID"]
-    c = call("instagram", "POST", f"{B}/{u}/media",
-             data={"media_type": "REELS", "video_url": vurl, "caption": m["instagram"], "access_token": t})["id"]
+    data = {"media_type": "REELS", "video_url": vurl, "caption": m["instagram"], "access_token": t}
+    if m.get("ig_trial"):  # trial reel: shown to non-followers only; value is MANUAL or SS_PERFORMANCE
+        data["trial_params"] = json.dumps({"graduation_strategy": m["ig_trial"]})
+    c = call("instagram", "POST", f"{B}/{u}/media", data=data)["id"]
     poll(call, "instagram", f"{B}/{c}", {"fields": "status_code,status", "access_token": t},
          lambda j: j.get("status_code") == "FINISHED", ('"ERROR"', '"EXPIRED"'))
     p = call("instagram", "POST", f"{B}/{u}/media_publish", data={"creation_id": c, "access_token": t})["id"]
