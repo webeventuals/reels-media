@@ -1,0 +1,193 @@
+[
+ {
+  "at": "2026-10-21T05:32:01.035997",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media",
+  "status": 200,
+  "response": {
+   "id": "18099252110425006"
+  }
+ },
+ {
+  "at": "2026-10-21T05:32:21.230702",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18099252110425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18099252110425006"
+  }
+ },
+ {
+  "at": "2026-10-21T05:32:41.342617",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18099252110425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18099252110425006"
+  }
+ },
+ {
+  "at": "2026-10-21T05:33:01.486663",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18099252110425006",
+  "status": 200,
+  "response": {
+   "status_code": "FINISHED",
+   "status": "FINISHED",
+   "id": "18099252110425006"
+  }
+ },
+ {
+  "at": "2026-10-21T05:33:07.048127",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media_publish",
+  "status": 200,
+  "response": {
+   "id": "17983082624904202"
+  }
+ },
+ {
+  "at": "2026-10-21T05:33:07.164771",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/17983082624904202",
+  "status": 200,
+  "response": {
+   "permalink": "https://www.instagram.com/reel/DevqfCYgXiG/",
+   "id": "17983082624904202"
+  }
+ },
+ {
+  "at": "2026-10-21T05:33:07.796520",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads",
+  "status": 200,
+  "response": {
+   "id": "17939104341385935"
+  }
+ },
+ {
+  "at": "2026-10-21T05:33:27.971793",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17939104341385935",
+  "status": 200,
+  "response": {
+   "id": "17939104341385935",
+   "status": "IN_PROGRESS"
+  }
+ },
+ {
+  "at": "2026-10-21T05:33:48.104358",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17939104341385935",
+  "status": 200,
+  "response": {
+   "id": "17939104341385935",
+   "status": "IN_PROGRESS"
+  }
+ },
+ {
+  "at": "2026-10-21T05:34:08.289746",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17939104341385935",
+  "status": 200,
+  "response": {
+   "id": "17939104341385935",
+   "status": "FINISHED"
+  }
+ },
+ {
+  "at": "2026-10-21T05:34:13.100902",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads_publish",
+  "status": 200,
+  "response": {
+   "id": "18094041845174557"
+  }
+ },
+ {
+  "at": "2026-10-21T05:34:13.309419",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/18094041845174557",
+  "status": 200,
+  "response": {
+   "id": "18094041845174557",
+   "permalink": "https://www.threads.com/@web_eventuals/post/DevqnVvCt7G"
+  }
+ },
+ {
+  "at": "2026-10-21T05:34:15.457143",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/video_reels",
+  "status": 200,
+  "response": {
+   "video_id": "1067937576077345",
+   "upload_url": "https://rupload.facebook.com/video-upload/v26.0/1067937576077345"
+  }
+ },
+ {
+  "at": "2026-10-21T05:34:19.545481",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://rupload.facebook.com/video-upload/v26.0/1067937576077345",
+  "status": 200,
+  "response": {
+   "success": true,
+   "message": "Upload Successful. To check the status of the video, please follow the instructions listed at https://developers.facebook.com/docs/video-api/guides/reels-publishing#get-the-upload-status."
+  }
+ },
+ {
+  "at": "2026-10-21T05:34:40.669937",
+  "platform": "facebook",
+  "method": "GET",
+  "url": "https://graph.facebook.com/v21.0/1067937576077345",
+  "status": 200,
+  "response": {
+   "status": {
+    "video_status": "upload_complete",
+    "uploading_phase": {
+     "status": "complete",
+     "bytes_transferred": 7551858
+    },
+    "processing_phase": {
+     "status": "not_started"
+    },
+    "publishing_phase": {
+     "status": "not_started"
+    },
+    "copyright_check_status": {
+     "status": "in_progress"
+    }
+   },
+   "id": "1067937576077345"
+  }
+ },
+ {
+  "at": "2026-10-21T05:34:44.244442",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/video_reels",
+  "status": 200,
+  "response": {
+   "success": true,
+   "message": "Video is Processing. To check the status of the video, please follow the instructions listed at https://developers.facebook.com/docs/video-api/guides/reels-publishing#get-the-upload-status.",
+   "post_id": "1636526111820796"
+  }
+ }
+]
