@@ -98,7 +98,33 @@ def youtube(call, m, vpath):
         raise RuntimeError(f"youtube upload start {s.status_code} {s.text[:300]}")
     with open(vpath, "rb") as f:
         v = call("youtube", "PUT", s.headers["Location"], data=f, headers={**h, "Content-Type": "video/mp4"})
-    return f"https://youtube.com/shorts/{v['id']}"
+    url = f"https://youtube.com/shorts/{v['id']}"
+    if m.get("youtube_playlist"):
+        # the video is already live: a playlist failure must not mark youtube failed, or a rerun would upload it twice
+        try:
+            add_to_playlist(call, h, v["id"], m["youtube_playlist"], m.get("youtube_playlist_description", ""))
+        except Exception as e:
+            print("youtube playlist failed:", str(e)[:300])
+    return url
+
+
+def add_to_playlist(call, h, vid, name, desc):
+    # topic playlist by exact title; created on first use so a new topic needs only a new name in the queue
+    B = "https://www.googleapis.com/youtube/v3"
+    pl, tok = None, None
+    while pl is None:
+        j = call("youtube", "GET", f"{B}/playlists", headers=h,
+                 params={"part": "snippet", "mine": "true", "maxResults": 50, **({"pageToken": tok} if tok else {})})
+        pl = next((p["id"] for p in j.get("items", []) if p["snippet"]["title"] == name), None)
+        tok = j.get("nextPageToken")
+        if not tok:
+            break
+    if pl is None:
+        pl = call("youtube", "POST", f"{B}/playlists", headers=h, params={"part": "snippet,status"},
+                  json={"snippet": {"title": name, "description": desc, "defaultLanguage": "hi"},
+                        "status": {"privacyStatus": "public"}})["id"]
+    call("youtube", "POST", f"{B}/playlistItems", headers=h, params={"part": "snippet"},
+         json={"snippet": {"playlistId": pl, "resourceId": {"kind": "youtube#video", "videoId": vid}}})
 
 
 for d in sorted(glob.glob("incoming/*/")):
