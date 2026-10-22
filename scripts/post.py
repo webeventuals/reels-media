@@ -83,8 +83,10 @@ def youtube(call, m, vpath):
     if r.status_code >= 400:
         raise RuntimeError(f"youtube token refresh {r.status_code} {r.text[:300]}")
     h = {"Authorization": f"Bearer {r.json()['access_token']}"}
-    title = (m.get("fb_title") or m["instagram"].split("\n")[0])[:90].strip() + " #Shorts"
-    body = {"snippet": {"title": title, "description": m.get("facebook") or m["instagram"], "categoryId": "27"},
+    # YouTube gets its own title/description (search-first, #Shorts); fallback only if the queue entry lacks them
+    title = m.get("youtube_title") or (m.get("fb_title") or m["instagram"].split("\n")[0])[:90].strip() + " #Shorts"
+    desc = m.get("youtube_description") or m.get("facebook") or m["instagram"]
+    body = {"snippet": {"title": title[:100], "description": desc, "categoryId": "27"},
             "status": {"privacyStatus": m.get("yt_privacy", "public"), "selfDeclaredMadeForKids": False}}
     s = requests.post("https://www.googleapis.com/upload/youtube/v3/videos?uploadType=resumable&part=snippet,status",
                       json=body, timeout=60, headers={**h, "X-Upload-Content-Type": "video/mp4",
