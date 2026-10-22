@@ -1,0 +1,69 @@
+[
+ {
+  "at": "2026-10-22T14:09:26.639670",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media",
+  "status": 200,
+  "response": {
+   "id": "18099397049425006"
+  }
+ },
+ {
+  "at": "2026-10-22T14:09:46.884498",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18099397049425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18099397049425006"
+  }
+ },
+ {
+  "at": "2026-10-22T14:10:07.009298",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18099397049425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18099397049425006"
+  }
+ },
+ {
+  "at": "2026-10-22T14:10:27.336765",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18099397049425006",
+  "status": 200,
+  "response": {
+   "status_code": "FINISHED",
+   "status": "FINISHED",
+   "id": "18099397049425006"
+  }
+ },
+ {
+  "at": "2026-10-22T14:10:36.266983",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media_publish",
+  "status": 200,
+  "response": {
+   "id": "18127648996845617"
+  }
+ },
+ {
+  "at": "2026-10-22T14:10:36.707502",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18127648996845617",
+  "status": 200,
+  "response": {
+   "permalink": "https://www.instagram.com/reel/DezKfkbDawe/",
+   "id": "18127648996845617"
+  }
+ }
+]
