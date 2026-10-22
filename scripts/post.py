@@ -88,8 +88,10 @@ def youtube(call, m, vpath):
     desc = m.get("youtube_description") or m.get("facebook") or m["instagram"]
     body = {"snippet": {"title": title[:100], "description": desc, "categoryId": "27", "tags": m.get("youtube_tags", []),
                         "defaultLanguage": "hi", "defaultAudioLanguage": "hi"},  # Hinglish voice and text
+            # location was removed from the API in 2017; only the date can be set
+            "recordingDetails": {"recordingDate": m["publish_after_ist"][:10] + "T00:00:00Z"},
             "status": {"privacyStatus": m.get("yt_privacy", "public"), "selfDeclaredMadeForKids": False}}
-    s = requests.post("https://www.googleapis.com/upload/youtube/v3/videos?uploadType=resumable&part=snippet,status",
+    s = requests.post("https://www.googleapis.com/upload/youtube/v3/videos?uploadType=resumable&part=snippet,status,recordingDetails",
                       json=body, timeout=60, headers={**h, "X-Upload-Content-Type": "video/mp4",
                                                       "X-Upload-Content-Length": str(os.path.getsize(vpath))})
     if s.status_code >= 400:
