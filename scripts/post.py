@@ -83,8 +83,9 @@ for d in sorted(glob.glob("incoming/*/")):
     vurl = f"https://raw.githubusercontent.com/{REPO}/{E_['SHA']}/incoming/{rid}/video.mp4"
     log = []
     call = make_call(log)
+    plats = m.get("platforms", ["instagram", "threads", "facebook"])  # e.g. ["instagram"] for an IG-trial-only test
     for name, fn in (("instagram", ig), ("threads", threads), ("facebook", fb)):
-        if st.get(name, {}).get("ok"):
+        if name not in plats or st.get(name, {}).get("ok"):
             continue
         try:
             st[name] = {"ok": True, "ref": fn(call, m, vurl), "at": datetime.datetime.now().isoformat()}
@@ -94,6 +95,6 @@ for d in sorted(glob.glob("incoming/*/")):
     json.dump(st, open(sf, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
     stamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
     json.dump(log, open(f"publish_log/{rid}_{stamp}.json", "w", encoding="utf-8"), indent=1, ensure_ascii=False)
-    if all(st.get(n, {}).get("ok") for n in ("instagram", "threads", "facebook")):
-        shutil.rmtree(d)  # all three published: remove video and meta from the public repo
+    if all(st.get(n, {}).get("ok") for n in plats):
+        shutil.rmtree(d)  # every requested platform published: remove video and meta from the public repo
         print("cleaned", d)
