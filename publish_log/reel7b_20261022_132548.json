@@ -1,0 +1,105 @@
+[
+ {
+  "at": "2026-10-22T13:23:37.228527",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media",
+  "status": 200,
+  "response": {
+   "id": "18099392555425006"
+  }
+ },
+ {
+  "at": "2026-10-22T13:23:57.478675",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18099392555425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18099392555425006"
+  }
+ },
+ {
+  "at": "2026-10-22T13:24:17.559382",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18099392555425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18099392555425006"
+  }
+ },
+ {
+  "at": "2026-10-22T13:24:37.638889",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18099392555425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18099392555425006"
+  }
+ },
+ {
+  "at": "2026-10-22T13:24:57.803174",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18099392555425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18099392555425006"
+  }
+ },
+ {
+  "at": "2026-10-22T13:25:17.880709",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18099392555425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18099392555425006"
+  }
+ },
+ {
+  "at": "2026-10-22T13:25:38.015773",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18099392555425006",
+  "status": 200,
+  "response": {
+   "status_code": "FINISHED",
+   "status": "FINISHED",
+   "id": "18099392555425006"
+  }
+ },
+ {
+  "at": "2026-10-22T13:25:47.850915",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media_publish",
+  "status": 200,
+  "response": {
+   "id": "18568580548072734"
+  }
+ },
+ {
+  "at": "2026-10-22T13:25:48.037381",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18568580548072734",
+  "status": 200,
+  "response": {
+   "permalink": "https://www.instagram.com/reel/DezFXJ2Alls/",
+   "id": "18568580548072734"
+  }
+ }
+]
