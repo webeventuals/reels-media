@@ -75,6 +75,27 @@ def fb(call, m, vurl):
     return vid
 
 
+def youtube(call, m, vpath):
+    # token refresh is not routed through call(): its response holds the access token
+    r = requests.post("https://oauth2.googleapis.com/token", timeout=60, data={
+        "client_id": E_["YT_CLIENT_ID"], "client_secret": E_["YT_CLIENT_SECRET"],
+        "refresh_token": E_["YT_REFRESH_TOKEN"], "grant_type": "refresh_token"})
+    if r.status_code >= 400:
+        raise RuntimeError(f"youtube token refresh {r.status_code} {r.text[:300]}")
+    h = {"Authorization": f"Bearer {r.json()['access_token']}"}
+    title = (m.get("fb_title") or m["instagram"].split("\n")[0])[:90].strip() + " #Shorts"
+    body = {"snippet": {"title": title, "description": m.get("facebook") or m["instagram"], "categoryId": "27"},
+            "status": {"privacyStatus": m.get("yt_privacy", "public"), "selfDeclaredMadeForKids": False}}
+    s = requests.post("https://www.googleapis.com/upload/youtube/v3/videos?uploadType=resumable&part=snippet,status",
+                      json=body, timeout=60, headers={**h, "X-Upload-Content-Type": "video/mp4",
+                                                      "X-Upload-Content-Length": str(os.path.getsize(vpath))})
+    if s.status_code >= 400:
+        raise RuntimeError(f"youtube upload start {s.status_code} {s.text[:300]}")
+    with open(vpath, "rb") as f:
+        v = call("youtube", "PUT", s.headers["Location"], data=f, headers={**h, "Content-Type": "video/mp4"})
+    return f"https://youtube.com/shorts/{v['id']}"
+
+
 for d in sorted(glob.glob("incoming/*/")):
     m = json.load(open(d + "meta.json", encoding="utf-8"))
     rid = m["id"]
@@ -83,12 +104,13 @@ for d in sorted(glob.glob("incoming/*/")):
     vurl = f"https://raw.githubusercontent.com/{REPO}/{E_['SHA']}/incoming/{rid}/video.mp4"
     log = []
     call = make_call(log)
-    plats = m.get("platforms", ["instagram", "threads", "facebook"])  # e.g. ["instagram"] for an IG-trial-only test
-    for name, fn in (("instagram", ig), ("threads", threads), ("facebook", fb)):
+    plats = m.get("platforms", ["instagram", "threads", "facebook", "youtube"])  # e.g. ["instagram"] for an IG-trial-only test
+    for name, fn in (("instagram", ig), ("threads", threads), ("facebook", fb), ("youtube", youtube)):
         if name not in plats or st.get(name, {}).get("ok"):
             continue
         try:
-            st[name] = {"ok": True, "ref": fn(call, m, vurl), "at": datetime.datetime.now().isoformat()}
+            src = d + "video.mp4" if name == "youtube" else vurl  # YouTube takes the file bytes, not a URL
+            st[name] = {"ok": True, "ref": fn(call, m, src), "at": datetime.datetime.now().isoformat()}
         except Exception as e:
             st[name] = {"ok": False, "error": str(e)[:800], "at": datetime.datetime.now().isoformat()}
         print(name, st[name]["ok"])
