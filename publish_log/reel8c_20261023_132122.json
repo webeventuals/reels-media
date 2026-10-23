@@ -1,0 +1,69 @@
+[
+ {
+  "at": "2026-10-23T13:20:14.221044",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media",
+  "status": 200,
+  "response": {
+   "id": "18099490046425006"
+  }
+ },
+ {
+  "at": "2026-10-23T13:20:34.435701",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18099490046425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18099490046425006"
+  }
+ },
+ {
+  "at": "2026-10-23T13:20:54.589781",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18099490046425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18099490046425006"
+  }
+ },
+ {
+  "at": "2026-10-23T13:21:14.830988",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18099490046425006",
+  "status": 200,
+  "response": {
+   "status_code": "FINISHED",
+   "status": "FINISHED",
+   "id": "18099490046425006"
+  }
+ },
+ {
+  "at": "2026-10-23T13:21:22.015491",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media_publish",
+  "status": 200,
+  "response": {
+   "id": "17881921668651839"
+  }
+ },
+ {
+  "at": "2026-10-23T13:21:22.201820",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/17881921668651839",
+  "status": 200,
+  "response": {
+   "permalink": "https://www.instagram.com/reel/De1pqB5D6lO/",
+   "id": "17881921668651839"
+  }
+ }
+]
