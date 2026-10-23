@@ -1,0 +1,386 @@
+[
+ {
+  "at": "2026-10-23T05:31:23.528094",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media",
+  "status": 200,
+  "response": {
+   "id": "18099457955425006"
+  }
+ },
+ {
+  "at": "2026-10-23T05:31:43.667253",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18099457955425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18099457955425006"
+  }
+ },
+ {
+  "at": "2026-10-23T05:32:03.806876",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18099457955425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18099457955425006"
+  }
+ },
+ {
+  "at": "2026-10-23T05:32:24.390459",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18099457955425006",
+  "status": 200,
+  "response": {
+   "status_code": "FINISHED",
+   "status": "FINISHED",
+   "id": "18099457955425006"
+  }
+ },
+ {
+  "at": "2026-10-23T05:32:32.179605",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media_publish",
+  "status": 200,
+  "response": {
+   "id": "17912149338489537"
+  }
+ },
+ {
+  "at": "2026-10-23T05:32:32.520037",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/17912149338489537",
+  "status": 200,
+  "response": {
+   "permalink": "https://www.instagram.com/reel/De00B52iIBM/",
+   "id": "17912149338489537"
+  }
+ },
+ {
+  "at": "2026-10-23T05:32:33.274076",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads",
+  "status": 200,
+  "response": {
+   "id": "17939425587385935"
+  }
+ },
+ {
+  "at": "2026-10-23T05:32:53.405445",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17939425587385935",
+  "status": 200,
+  "response": {
+   "id": "17939425587385935",
+   "status": "IN_PROGRESS"
+  }
+ },
+ {
+  "at": "2026-10-23T05:33:14.070274",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17939425587385935",
+  "status": 200,
+  "response": {
+   "id": "17939425587385935",
+   "status": "FINISHED"
+  }
+ },
+ {
+  "at": "2026-10-23T05:33:20.744833",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads_publish",
+  "status": 200,
+  "response": {
+   "id": "18635584645047691"
+  }
+ },
+ {
+  "at": "2026-10-23T05:33:21.084971",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/18635584645047691",
+  "status": 200,
+  "response": {
+   "id": "18635584645047691",
+   "permalink": "https://www.threads.com/@web_eventuals/post/De00ItGGu-N"
+  }
+ },
+ {
+  "at": "2026-10-23T05:33:22.972622",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/video_reels",
+  "status": 200,
+  "response": {
+   "video_id": "2400611647433754",
+   "upload_url": "https://rupload.facebook.com/video-upload/v26.0/2400611647433754"
+  }
+ },
+ {
+  "at": "2026-10-23T05:33:26.306719",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://rupload.facebook.com/video-upload/v26.0/2400611647433754",
+  "status": 200,
+  "response": {
+   "success": true,
+   "message": "Upload Successful. To check the status of the video, please follow the instructions listed at https://developers.facebook.com/docs/video-api/guides/reels-publishing#get-the-upload-status."
+  }
+ },
+ {
+  "at": "2026-10-23T05:33:47.650105",
+  "platform": "facebook",
+  "method": "GET",
+  "url": "https://graph.facebook.com/v21.0/2400611647433754",
+  "status": 200,
+  "response": {
+   "status": {
+    "video_status": "upload_complete",
+    "uploading_phase": {
+     "status": "complete",
+     "bytes_transferred": 12100081
+    },
+    "processing_phase": {
+     "status": "not_started"
+    },
+    "publishing_phase": {
+     "status": "not_started"
+    },
+    "copyright_check_status": {
+     "status": "complete",
+     "matches_found": false
+    }
+   },
+   "id": "2400611647433754"
+  }
+ },
+ {
+  "at": "2026-10-23T05:33:50.570513",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/video_reels",
+  "status": 200,
+  "response": {
+   "success": true,
+   "message": "Video is Processing. To check the status of the video, please follow the instructions listed at https://developers.facebook.com/docs/video-api/guides/reels-publishing#get-the-upload-status.",
+   "post_id": "1638540321619375"
+  }
+ },
+ {
+  "at": "2026-10-23T05:33:52.152116",
+  "platform": "youtube",
+  "method": "PUT",
+  "url": "https://www.googleapis.com/upload/youtube/v3/videos",
+  "status": 200,
+  "response": {
+   "kind": "youtube#video",
+   "etag": "irW9M4wNQhJI-q3fGrsmeqArrgk",
+   "id": "NLDBLV2dtNY",
+   "snippet": {
+    "publishedAt": "2026-10-23T05:33:50Z",
+    "channelId": "UCB2uvZ-zeLryreR2msWBpxQ",
+    "title": "Website enquiry form ka alert nahi aata? Silent Form fix #Shorts",
+    "description": "Website enquiry form bhara gaya, par aapko pata hi nahi chala. Isse kehte hain Silent Form, aur isi wajah se customer kisi aur ke paas chala jata hai.\n\n3 step fix:\n1. Form mein sirf teen fields: naam, phone, zaroorat\n2. Submit ke baad likhiye: hum aaj shaam tak call karenge\n3. Har enquiry turant WhatsApp par aaye, aur ek sheet mein bhi jaye\n\nAapka form bhara jaye, to aap kitni der mein jawab dete hain? Comment kariye.\n\nWebsite: https://webeventuals.com\nWhatsApp: https://wa.me/918310377082\n\nAise aur website tips ke liye channel subscribe kariye.\n\n#Shorts #WebsiteTips #SmallBusiness",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/NLDBLV2dtNY/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/NLDBLV2dtNY/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/NLDBLV2dtNY/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Web Eventuals",
+    "categoryId": "27",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "hi",
+    "localized": {
+     "title": "Website enquiry form ka alert nahi aata? Silent Form fix #Shorts",
+     "description": "Website enquiry form bhara gaya, par aapko pata hi nahi chala. Isse kehte hain Silent Form, aur isi wajah se customer kisi aur ke paas chala jata hai.\n\n3 step fix:\n1. Form mein sirf teen fields: naam, phone, zaroorat\n2. Submit ke baad likhiye: hum aaj shaam tak call karenge\n3. Har enquiry turant WhatsApp par aaye, aur ek sheet mein bhi jaye\n\nAapka form bhara jaye, to aap kitni der mein jawab dete hain? Comment kariye.\n\nWebsite: https://webeventuals.com\nWhatsApp: https://wa.me/918310377082\n\nAise aur website tips ke liye channel subscribe kariye.\n\n#Shorts #WebsiteTips #SmallBusiness"
+    },
+    "defaultAudioLanguage": "hi"
+   },
+   "status": {
+    "uploadStatus": "uploaded",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "selfDeclaredMadeForKids": false
+   },
+   "recordingDetails": {
+    "recordingDate": "2026-10-23T00:00:00Z"
+   }
+  }
+ },
+ {
+  "at": "2026-10-23T05:33:52.352656",
+  "platform": "youtube",
+  "method": "GET",
+  "url": "https://www.googleapis.com/youtube/v3/playlists",
+  "status": 200,
+  "response": {
+   "kind": "youtube#playlistListResponse",
+   "etag": "kyaH-1rrhPduehP-XhLhR4dTL10",
+   "pageInfo": {
+    "totalResults": 4,
+    "resultsPerPage": 50
+   },
+   "items": [
+    {
+     "kind": "youtube#playlist",
+     "etag": "8nx2pM6e7NbUf1efONEHzUOifwI",
+     "id": "PLAjchdXH3H5k",
+     "snippet": {
+      "publishedAt": "2026-10-22T20:15:33.754086513Z",
+      "channelId": "UCB2uvZ-zeLryreR2msWBpxQ",
+      "title": "Website Tips for Business Owners (Hinglish)",
+      "description": "Short Hinglish website tips for business owners: social proof, enquiry forms, template vs custom website, local SEO, Google Business Profile aur WhatsApp automation. Har Short mein ek problem aur uska simple fix.\n\nWebsite: https://webeventuals.com",
+      "thumbnails": {
+       "default": {
+        "url": "https://i.ytimg.com/vi/h3mLddZ9xF4/default.jpg",
+        "width": 120,
+        "height": 90
+       },
+       "medium": {
+        "url": "https://i.ytimg.com/vi/h3mLddZ9xF4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+       },
+       "high": {
+        "url": "https://i.ytimg.com/vi/h3mLddZ9xF4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+       },
+       "standard": {
+        "url": "https://i.ytimg.com/vi/h3mLddZ9xF4/sddefault.jpg",
+        "width": 640,
+        "height": 480
+       },
+       "maxres": {
+        "url": "https://i.ytimg.com/vi/h3mLddZ9xF4/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+       }
+      },
+      "channelTitle": "Web Eventuals",
+      "defaultLanguage": "hi",
+      "localized": {
+       "title": "Website Tips for Business Owners (Hinglish)",
+       "description": "Short Hinglish website tips for business owners: social proof, enquiry forms, template vs custom website, local SEO, Google Business Profile aur WhatsApp automation. Har Short mein ek problem aur uska simple fix.\n\nWebsite: https://webeventuals.com"
+      }
+     }
+    },
+    {
+     "kind": "youtube#playlist",
+     "etag": "Ka72yTP_l4aqbaeAI4gJdfHuiXw",
+     "id": "PLIAWHEAbY1ZU",
+     "snippet": {
+      "publishedAt": "2026-09-26T09:31:31.144133713Z",
+      "channelId": "UCB2uvZ-zeLryreR2msWBpxQ",
+      "title": "Website Rebuild",
+      "description": "",
+      "thumbnails": {
+       "default": {
+        "url": "https://i.ytimg.com/vi/tEQvni4oa-A/default.jpg",
+        "width": 120,
+        "height": 90
+       },
+       "medium": {
+        "url": "https://i.ytimg.com/vi/tEQvni4oa-A/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+       },
+       "high": {
+        "url": "https://i.ytimg.com/vi/tEQvni4oa-A/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+       },
+       "standard": {
+        "url": "https://i.ytimg.com/vi/tEQvni4oa-A/sddefault.jpg",
+        "width": 640,
+        "height": 480
+       },
+       "maxres": {
+        "url": "https://i.ytimg.com/vi/tEQvni4oa-A/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+       }
+      },
+      "channelTitle": "Web Eventuals",
+      "localized": {
+       "title": "Website Rebuild",
+       "description": ""
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "at": "2026-10-23T05:33:52.974098",
+  "platform": "youtube",
+  "method": "POST",
+  "url": "https://www.googleapis.com/youtube/v3/playlistItems",
+  "status": 200,
+  "response": {
+   "kind": "youtube#playlistItem",
+   "etag": "zR6d7xlR5UrkkZA1v1FLKI582lg",
+   "id": "UExBamNoZFhIM0g1ay4yODlGNEE0NkRGMEEzMEQy",
+   "snippet": {
+    "publishedAt": "2026-10-23T05:33:52Z",
+    "channelId": "UCB2uvZ-zeLryreR2msWBpxQ",
+    "title": "Website enquiry form ka alert nahi aata? Silent Form fix #Shorts",
+    "description": "Website enquiry form bhara gaya, par aapko pata hi nahi chala. Isse kehte hain Silent Form, aur isi wajah se customer kisi aur ke paas chala jata hai.\n\n3 step fix:\n1. Form mein sirf teen fields: naam, phone, zaroorat\n2. Submit ke baad likhiye: hum aaj shaam tak call karenge\n3. Har enquiry turant WhatsApp par aaye, aur ek sheet mein bhi jaye\n\nAapka form bhara jaye, to aap kitni der mein jawab dete hain? Comment kariye.\n\nWebsite: https://webeventuals.com\nWhatsApp: https://wa.me/918310377082\n\nAise aur website tips ke liye channel subscribe kariye.\n\n#Shorts #WebsiteTips #SmallBusiness",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/NLDBLV2dtNY/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/NLDBLV2dtNY/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/NLDBLV2dtNY/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Web Eventuals",
+    "playlistId": "PLAjchdXH3H5k",
+    "position": 0,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "NLDBLV2dtNY"
+    },
+    "videoOwnerChannelTitle": "Web Eventuals",
+    "videoOwnerChannelId": "UCB2uvZ-zeLryreR2msWBpxQ"
+   }
+  }
+ }
+]
