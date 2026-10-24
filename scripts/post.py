@@ -37,7 +37,8 @@ def poll(call, platform, url, params, done, bad, tries=30, wait=20):
 def ig(call, m, vurl):
     B = "https://graph.instagram.com/v21.0"
     t, u = E_["IG_ACCESS_TOKEN"], E_["IG_USER_ID"]
-    body = {"media_type": "REELS", "video_url": vurl, "caption": m["instagram"]}
+    # AI voice on every reel: self-disclose by default; a queue entry can set "ai_label": false
+    body = {"media_type": "REELS", "video_url": vurl, "caption": m["instagram"], "is_ai_generated": m.get("ai_label", True)}
     if m.get("cover"):  # JPEG cover shown in the grid/profile instead of a baked-in first frame
         body["cover_url"] = f"https://raw.githubusercontent.com/{REPO}/{E_['SHA']}/incoming/{m['id']}/cover.jpg"
     if m.get("ig_trial"):  # trial reel: shown to non-followers only; value is MANUAL or SS_PERFORMANCE
