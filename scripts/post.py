@@ -34,12 +34,17 @@ def poll(call, platform, url, params, done, bad, tries=30, wait=20):
     raise RuntimeError(f"{platform} timeout")
 
 
+def covers(m):
+    # platforms that get the separate cover.jpg; default keeps the old IG-only behaviour (Threads/FB take no cover)
+    return m.get("cover_platforms", ["instagram"])
+
+
 def ig(call, m, vurl):
     B = "https://graph.instagram.com/v21.0"
     t, u = E_["IG_ACCESS_TOKEN"], E_["IG_USER_ID"]
     # AI voice on every reel: self-disclose by default; a queue entry can set "ai_label": false
     body = {"media_type": "REELS", "video_url": vurl, "caption": m["instagram"], "is_ai_generated": m.get("ai_label", True)}
-    if m.get("cover"):  # JPEG cover shown in the grid/profile instead of a baked-in first frame
+    if m.get("cover") and "instagram" in covers(m):  # JPEG cover shown in the grid/profile instead of a baked-in first frame
         body["cover_url"] = f"https://raw.githubusercontent.com/{REPO}/{E_['SHA']}/incoming/{m['id']}/cover.jpg"
     if m.get("ig_trial"):  # trial reel: shown to non-followers only; value is MANUAL or SS_PERFORMANCE
         body["trial_params"] = {"graduation_strategy": m["ig_trial"]}  # real JSON object, sent as a JSON body
@@ -100,6 +105,15 @@ def youtube(call, m, vpath):
     with open(vpath, "rb") as f:
         v = call("youtube", "PUT", s.headers["Location"], data=f, headers={**h, "Content-Type": "video/mp4"})
     url = f"https://youtube.com/shorts/{v['id']}"
+    cp = os.path.join(os.path.dirname(vpath), "cover.jpg")
+    if m.get("cover") and "youtube" in covers(m) and os.path.exists(cp):
+        # video is already live: a thumbnail failure (unverified channel, Shorts limits) must not mark youtube failed
+        try:
+            with open(cp, "rb") as f:
+                call("youtube", "POST", f"https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId={v['id']}",
+                     data=f, headers={**h, "Content-Type": "image/jpeg"})
+        except Exception as e:
+            print("youtube thumbnail failed:", str(e)[:300])
     if m.get("youtube_playlist"):
         # the video is already live: a playlist failure must not mark youtube failed, or a rerun would upload it twice
         try:
