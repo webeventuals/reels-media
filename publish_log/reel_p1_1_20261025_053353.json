@@ -1,0 +1,435 @@
+[
+ {
+  "at": "2026-10-25T05:31:24.481165",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media",
+  "status": 200,
+  "response": {
+   "id": "18099710423425006"
+  }
+ },
+ {
+  "at": "2026-10-25T05:31:44.665245",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18099710423425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18099710423425006"
+  }
+ },
+ {
+  "at": "2026-10-25T05:32:04.796847",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18099710423425006",
+  "status": 200,
+  "response": {
+   "status_code": "FINISHED",
+   "status": "FINISHED",
+   "id": "18099710423425006"
+  }
+ },
+ {
+  "at": "2026-10-25T05:32:15.091269",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media_publish",
+  "status": 200,
+  "response": {
+   "id": "18118486741791135"
+  }
+ },
+ {
+  "at": "2026-10-25T05:32:15.352040",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18118486741791135",
+  "status": 200,
+  "response": {
+   "permalink": "https://www.instagram.com/reel/De59mb_goeY/",
+   "id": "18118486741791135"
+  }
+ },
+ {
+  "at": "2026-10-25T05:32:15.965397",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads",
+  "status": 200,
+  "response": {
+   "id": "17939792664385935"
+  }
+ },
+ {
+  "at": "2026-10-25T05:32:36.085528",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17939792664385935",
+  "status": 200,
+  "response": {
+   "id": "17939792664385935",
+   "status": "IN_PROGRESS"
+  }
+ },
+ {
+  "at": "2026-10-25T05:32:56.206093",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17939792664385935",
+  "status": 200,
+  "response": {
+   "id": "17939792664385935",
+   "status": "IN_PROGRESS"
+  }
+ },
+ {
+  "at": "2026-10-25T05:33:16.483792",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17939792664385935",
+  "status": 200,
+  "response": {
+   "id": "17939792664385935",
+   "status": "FINISHED"
+  }
+ },
+ {
+  "at": "2026-10-25T05:33:20.902503",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads_publish",
+  "status": 200,
+  "response": {
+   "id": "18200071168377751"
+  }
+ },
+ {
+  "at": "2026-10-25T05:33:21.032928",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/18200071168377751",
+  "status": 200,
+  "response": {
+   "id": "18200071168377751",
+   "permalink": "https://www.threads.com/@web_eventuals/post/De59sYajx8b"
+  }
+ },
+ {
+  "at": "2026-10-25T05:33:23.076309",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/video_reels",
+  "status": 200,
+  "response": {
+   "video_id": "1155819166974065",
+   "upload_url": "https://rupload.facebook.com/video-upload/v26.0/1155819166974065"
+  }
+ },
+ {
+  "at": "2026-10-25T05:33:26.598865",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://rupload.facebook.com/video-upload/v26.0/1155819166974065",
+  "status": 200,
+  "response": {
+   "success": true,
+   "message": "Upload Successful. To check the status of the video, please follow the instructions listed at https://developers.facebook.com/docs/video-api/guides/reels-publishing#get-the-upload-status."
+  }
+ },
+ {
+  "at": "2026-10-25T05:33:46.965971",
+  "platform": "facebook",
+  "method": "GET",
+  "url": "https://graph.facebook.com/v21.0/1155819166974065",
+  "status": 200,
+  "response": {
+   "status": {
+    "video_status": "upload_complete",
+    "uploading_phase": {
+     "status": "complete",
+     "bytes_transferred": 3672691
+    },
+    "processing_phase": {
+     "status": "not_started"
+    },
+    "publishing_phase": {
+     "status": "not_started"
+    },
+    "copyright_check_status": {
+     "status": "complete",
+     "matches_found": false
+    }
+   },
+   "id": "1155819166974065"
+  }
+ },
+ {
+  "at": "2026-10-25T05:33:49.772730",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/video_reels",
+  "status": 200,
+  "response": {
+   "success": true,
+   "message": "Video is Processing. To check the status of the video, please follow the instructions listed at https://developers.facebook.com/docs/video-api/guides/reels-publishing#get-the-upload-status.",
+   "post_id": "1640589404747800"
+  }
+ },
+ {
+  "at": "2026-10-25T05:33:50.922068",
+  "platform": "youtube",
+  "method": "PUT",
+  "url": "https://www.googleapis.com/upload/youtube/v3/videos",
+  "status": 200,
+  "response": {
+   "kind": "youtube#video",
+   "etag": "V4tlOujfIyE7-8p8vl_7TO-OmIs",
+   "id": "YdUNJANp4Jg",
+   "snippet": {
+    "publishedAt": "2026-10-25T05:33:49Z",
+    "channelId": "UCB2uvZ-zeLryreR2msWBpxQ",
+    "title": "Business me sale kaise badhaye? 3 free upay #Shorts",
+    "description": "Business me sale kaise badhaye, business me sell kaise badhaye, dhanda nahi chal raha to kya upay karein: ye 3 jagah dekhiye.\n\nCustomer price poochke bina kuch liye chala jaata hai? Aapka paisa teen jagah chhoot raha hai, aur teeno ka fix free hai.\n\n1. Price: ek rate ki jagah teen options dijiye.\n2. \"Soch ke batata hoon\": poochiye, kis baat pe sochna hai?\n3. Bill: \"aur kuch?\" ki jagah seedha add-on suggest kijiye.\n\nDukaan, salon, clinic ya consulting, sab pe kaam karta hai. Kaun sa sabse zyada kaam aaya? Comment kariye.\n\nWebsite: https://webeventuals.com\nWhatsApp: https://wa.me/918310377082\n\nAise aur business tips ke liye channel subscribe kariye.\n\n#Shorts #SmallBusiness #SalesTips",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/YdUNJANp4Jg/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/YdUNJANp4Jg/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/YdUNJANp4Jg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Web Eventuals",
+    "categoryId": "27",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "hi",
+    "localized": {
+     "title": "Business me sale kaise badhaye? 3 free upay #Shorts",
+     "description": "Business me sale kaise badhaye, business me sell kaise badhaye, dhanda nahi chal raha to kya upay karein: ye 3 jagah dekhiye.\n\nCustomer price poochke bina kuch liye chala jaata hai? Aapka paisa teen jagah chhoot raha hai, aur teeno ka fix free hai.\n\n1. Price: ek rate ki jagah teen options dijiye.\n2. \"Soch ke batata hoon\": poochiye, kis baat pe sochna hai?\n3. Bill: \"aur kuch?\" ki jagah seedha add-on suggest kijiye.\n\nDukaan, salon, clinic ya consulting, sab pe kaam karta hai. Kaun sa sabse zyada kaam aaya? Comment kariye.\n\nWebsite: https://webeventuals.com\nWhatsApp: https://wa.me/918310377082\n\nAise aur business tips ke liye channel subscribe kariye.\n\n#Shorts #SmallBusiness #SalesTips"
+    },
+    "defaultAudioLanguage": "hi"
+   },
+   "status": {
+    "uploadStatus": "uploaded",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "selfDeclaredMadeForKids": false
+   },
+   "recordingDetails": {
+    "recordingDate": "2026-10-25T00:00:00Z"
+   }
+  }
+ },
+ {
+  "at": "2026-10-25T05:33:53.020686",
+  "platform": "youtube",
+  "method": "POST",
+  "url": "https://www.googleapis.com/upload/youtube/v3/thumbnails/set",
+  "status": 200,
+  "response": {
+   "kind": "youtube#thumbnailSetResponse",
+   "etag": "bIaFv9VjX23oIixTrJlFc54JDII",
+   "items": [
+    {
+     "default": {
+      "url": "https://i.ytimg.com/vi/YdUNJANp4Jg/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/YdUNJANp4Jg/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/YdUNJANp4Jg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/YdUNJANp4Jg/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/YdUNJANp4Jg/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     },
+     "qhd": {
+      "url": "https://i.ytimg.com/vi/YdUNJANp4Jg/qhddefault.jpg",
+      "width": 2560,
+      "height": 1440
+     }
+    }
+   ]
+  }
+ },
+ {
+  "at": "2026-10-25T05:33:53.200349",
+  "platform": "youtube",
+  "method": "GET",
+  "url": "https://www.googleapis.com/youtube/v3/playlists",
+  "status": 200,
+  "response": {
+   "kind": "youtube#playlistListResponse",
+   "etag": "ueOF7lXkmTsUTOJawrChaAi13t4",
+   "pageInfo": {
+    "totalResults": 4,
+    "resultsPerPage": 50
+   },
+   "items": [
+    {
+     "kind": "youtube#playlist",
+     "etag": "cbqnDaH7OVsBFdWZ9EADoCs3v_I",
+     "id": "PLAjchdXH3H5k",
+     "snippet": {
+      "publishedAt": "2026-10-22T20:15:33.754086513Z",
+      "channelId": "UCB2uvZ-zeLryreR2msWBpxQ",
+      "title": "Website Tips for Business Owners (Hinglish)",
+      "description": "Short Hinglish website tips for business owners: social proof, enquiry forms, template vs custom website, local SEO, Google Business Profile aur WhatsApp automation. Har Short mein ek problem aur uska simple fix.\n\nWebsite: https://webeventuals.com",
+      "thumbnails": {
+       "default": {
+        "url": "https://i.ytimg.com/vi/yPyYvoowUR0/default.jpg",
+        "width": 120,
+        "height": 90
+       },
+       "medium": {
+        "url": "https://i.ytimg.com/vi/yPyYvoowUR0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+       },
+       "high": {
+        "url": "https://i.ytimg.com/vi/yPyYvoowUR0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+       }
+      },
+      "channelTitle": "Web Eventuals",
+      "defaultLanguage": "hi",
+      "localized": {
+       "title": "Website Tips for Business Owners (Hinglish)",
+       "description": "Short Hinglish website tips for business owners: social proof, enquiry forms, template vs custom website, local SEO, Google Business Profile aur WhatsApp automation. Har Short mein ek problem aur uska simple fix.\n\nWebsite: https://webeventuals.com"
+      }
+     }
+    },
+    {
+     "kind": "youtube#playlist",
+     "etag": "Ka72yTP_l4aqbaeAI4gJdfHuiXw",
+     "id": "PLIAWHEAbY1ZU",
+     "snippet": {
+      "publishedAt": "2026-09-26T09:31:31.144133713Z",
+      "channelId": "UCB2uvZ-zeLryreR2msWBpxQ",
+      "title": "Website Rebuild",
+      "description": "",
+      "thumbnails": {
+       "default": {
+        "url": "https://i.ytimg.com/vi/tEQvni4oa-A/default.jpg",
+        "width": 120,
+        "height": 90
+       },
+       "medium": {
+        "url": "https://i.ytimg.com/vi/tEQvni4oa-A/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+       },
+       "high": {
+        "url": "https://i.ytimg.com/vi/tEQvni4oa-A/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+       },
+       "standard": {
+        "url": "https://i.ytimg.com/vi/tEQvni4oa-A/sddefault.jpg",
+        "width": 640,
+        "height": 480
+       },
+       "maxres": {
+        "url": "https://i.ytimg.com/vi/tEQvni4oa-A/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+       }
+      },
+      "channelTitle": "Web Eventuals",
+      "localized": {
+       "title": "Website Rebuild",
+       "description": ""
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "at": "2026-10-25T05:33:53.838383",
+  "platform": "youtube",
+  "method": "POST",
+  "url": "https://www.googleapis.com/youtube/v3/playlistItems",
+  "status": 200,
+  "response": {
+   "kind": "youtube#playlistItem",
+   "etag": "jDPC1WtkEKcc5pZkGP5vMljCKP4",
+   "id": "UExBamNoZFhIM0g1ay41MjE1MkI0OTQ2QzJGNzNG",
+   "snippet": {
+    "publishedAt": "2026-10-25T05:33:53Z",
+    "channelId": "UCB2uvZ-zeLryreR2msWBpxQ",
+    "title": "Business me sale kaise badhaye? 3 free upay #Shorts",
+    "description": "Business me sale kaise badhaye, business me sell kaise badhaye, dhanda nahi chal raha to kya upay karein: ye 3 jagah dekhiye.\n\nCustomer price poochke bina kuch liye chala jaata hai? Aapka paisa teen jagah chhoot raha hai, aur teeno ka fix free hai.\n\n1. Price: ek rate ki jagah teen options dijiye.\n2. \"Soch ke batata hoon\": poochiye, kis baat pe sochna hai?\n3. Bill: \"aur kuch?\" ki jagah seedha add-on suggest kijiye.\n\nDukaan, salon, clinic ya consulting, sab pe kaam karta hai. Kaun sa sabse zyada kaam aaya? Comment kariye.\n\nWebsite: https://webeventuals.com\nWhatsApp: https://wa.me/918310377082\n\nAise aur business tips ke liye channel subscribe kariye.\n\n#Shorts #SmallBusiness #SalesTips",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/YdUNJANp4Jg/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/YdUNJANp4Jg/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/YdUNJANp4Jg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/YdUNJANp4Jg/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/YdUNJANp4Jg/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     },
+     "qhd": {
+      "url": "https://i.ytimg.com/vi/YdUNJANp4Jg/qhddefault.jpg",
+      "width": 2560,
+      "height": 1440
+     }
+    },
+    "channelTitle": "Web Eventuals",
+    "playlistId": "PLAjchdXH3H5k",
+    "position": 0,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "YdUNJANp4Jg"
+    },
+    "videoOwnerChannelTitle": "Web Eventuals",
+    "videoOwnerChannelId": "UCB2uvZ-zeLryreR2msWBpxQ"
+   }
+  }
+ }
+]
