@@ -1,0 +1,462 @@
+[
+ {
+  "at": "2026-10-26T05:31:26.974273",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media",
+  "status": 200,
+  "response": {
+   "id": "18099858896425006"
+  }
+ },
+ {
+  "at": "2026-10-26T05:31:47.211021",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18099858896425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18099858896425006"
+  }
+ },
+ {
+  "at": "2026-10-26T05:32:07.275229",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18099858896425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18099858896425006"
+  }
+ },
+ {
+  "at": "2026-10-26T05:32:27.357016",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18099858896425006",
+  "status": 200,
+  "response": {
+   "status_code": "FINISHED",
+   "status": "FINISHED",
+   "id": "18099858896425006"
+  }
+ },
+ {
+  "at": "2026-10-26T05:32:35.626968",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media_publish",
+  "status": 200,
+  "response": {
+   "id": "18101024408393900"
+  }
+ },
+ {
+  "at": "2026-10-26T05:32:35.737537",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18101024408393900",
+  "status": 200,
+  "response": {
+   "permalink": "https://www.instagram.com/reel/De8iZV9jnwN/",
+   "id": "18101024408393900"
+  }
+ },
+ {
+  "at": "2026-10-26T05:32:36.619320",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads",
+  "status": 200,
+  "response": {
+   "id": "17940022506385935"
+  }
+ },
+ {
+  "at": "2026-10-26T05:32:56.876871",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17940022506385935",
+  "status": 200,
+  "response": {
+   "id": "17940022506385935",
+   "status": "IN_PROGRESS"
+  }
+ },
+ {
+  "at": "2026-10-26T05:33:16.958920",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17940022506385935",
+  "status": 200,
+  "response": {
+   "id": "17940022506385935",
+   "status": "IN_PROGRESS"
+  }
+ },
+ {
+  "at": "2026-10-26T05:33:37.099429",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17940022506385935",
+  "status": 200,
+  "response": {
+   "id": "17940022506385935",
+   "status": "FINISHED"
+  }
+ },
+ {
+  "at": "2026-10-26T05:33:43.595293",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads_publish",
+  "status": 200,
+  "response": {
+   "id": "18104681117199223"
+  }
+ },
+ {
+  "at": "2026-10-26T05:33:43.786458",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/18104681117199223",
+  "status": 200,
+  "response": {
+   "id": "18104681117199223",
+   "permalink": "https://www.threads.com/@web_eventuals/post/De8iiArk-Rb"
+  }
+ },
+ {
+  "at": "2026-10-26T05:33:45.446307",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/video_reels",
+  "status": 200,
+  "response": {
+   "video_id": "1634382191522696",
+   "upload_url": "https://rupload.facebook.com/video-upload/v26.0/1634382191522696"
+  }
+ },
+ {
+  "at": "2026-10-26T05:33:55.611443",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://rupload.facebook.com/video-upload/v26.0/1634382191522696",
+  "status": 200,
+  "response": {
+   "success": true,
+   "message": "Upload Successful. To check the status of the video, please follow the instructions listed at https://developers.facebook.com/docs/video-api/guides/reels-publishing#get-the-upload-status."
+  }
+ },
+ {
+  "at": "2026-10-26T05:34:16.185890",
+  "platform": "facebook",
+  "method": "GET",
+  "url": "https://graph.facebook.com/v21.0/1634382191522696",
+  "status": 200,
+  "response": {
+   "status": {
+    "video_status": "upload_complete",
+    "uploading_phase": {
+     "status": "complete",
+     "bytes_transferred": 17697455
+    },
+    "processing_phase": {
+     "status": "not_started"
+    },
+    "publishing_phase": {
+     "status": "not_started"
+    },
+    "copyright_check_status": {
+     "status": "complete",
+     "matches_found": false
+    }
+   },
+   "id": "1634382191522696"
+  }
+ },
+ {
+  "at": "2026-10-26T05:34:18.513314",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/video_reels",
+  "status": 200,
+  "response": {
+   "success": true,
+   "message": "Video is Processing. To check the status of the video, please follow the instructions listed at https://developers.facebook.com/docs/video-api/guides/reels-publishing#get-the-upload-status.",
+   "post_id": "1641627714643969"
+  }
+ },
+ {
+  "at": "2026-10-26T05:34:20.631958",
+  "platform": "youtube",
+  "method": "PUT",
+  "url": "https://www.googleapis.com/upload/youtube/v3/videos",
+  "status": 200,
+  "response": {
+   "kind": "youtube#video",
+   "etag": "bYDT12raEevVt0d4BMrmcn1Sk-4",
+   "id": "rcRmQsUVytw",
+   "snippet": {
+    "publishedAt": "2026-10-26T05:34:18Z",
+    "channelId": "UCB2uvZ-zeLryreR2msWBpxQ",
+    "title": "Business me grahak kaise badhaye? 3 asli totke #Shorts",
+    "description": "Dukaan me grahak kaise badhaye, grahak badhane ka totka, dukaan ki bikri kaise badhaye: ye 3 asli tarike.\n\nBagal wali dukaan pe bheed hai aur aapki shop khaali? Farq in teen cheezon ka hai, aur kharcha lagbhag zero.\n\n1. Shop ka front: light on, board saaf, best saamaan saamne.\n2. Pehle 5 second: phone side mein, khade hokar \"aaiye, bataiye kya dikhaun?\"\n3. Counter pe chhota board: aaj ka offer ya new stock.\n\nAapki shop ka sabse pakka totka kaun sa hai? Comment kariye.\n\nWebsite: https://webeventuals.com\nWhatsApp: https://wa.me/918310377082\n\nAise aur business tips ke liye channel subscribe kariye.\n\n#Shorts #SmallBusiness #ShopOwner",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/rcRmQsUVytw/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/rcRmQsUVytw/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/rcRmQsUVytw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Web Eventuals",
+    "categoryId": "27",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "hi",
+    "localized": {
+     "title": "Business me grahak kaise badhaye? 3 asli totke #Shorts",
+     "description": "Dukaan me grahak kaise badhaye, grahak badhane ka totka, dukaan ki bikri kaise badhaye: ye 3 asli tarike.\n\nBagal wali dukaan pe bheed hai aur aapki shop khaali? Farq in teen cheezon ka hai, aur kharcha lagbhag zero.\n\n1. Shop ka front: light on, board saaf, best saamaan saamne.\n2. Pehle 5 second: phone side mein, khade hokar \"aaiye, bataiye kya dikhaun?\"\n3. Counter pe chhota board: aaj ka offer ya new stock.\n\nAapki shop ka sabse pakka totka kaun sa hai? Comment kariye.\n\nWebsite: https://webeventuals.com\nWhatsApp: https://wa.me/918310377082\n\nAise aur business tips ke liye channel subscribe kariye.\n\n#Shorts #SmallBusiness #ShopOwner"
+    },
+    "defaultAudioLanguage": "hi"
+   },
+   "status": {
+    "uploadStatus": "uploaded",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "selfDeclaredMadeForKids": false
+   },
+   "recordingDetails": {
+    "recordingDate": "2026-10-26T00:00:00Z"
+   }
+  }
+ },
+ {
+  "at": "2026-10-26T05:34:23.206386",
+  "platform": "youtube",
+  "method": "POST",
+  "url": "https://www.googleapis.com/upload/youtube/v3/thumbnails/set",
+  "status": 200,
+  "response": {
+   "kind": "youtube#thumbnailSetResponse",
+   "etag": "c1dk7dDECDXnZ1hyxzIQtQVgyJI",
+   "items": [
+    {
+     "default": {
+      "url": "https://i.ytimg.com/vi/rcRmQsUVytw/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/rcRmQsUVytw/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/rcRmQsUVytw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/rcRmQsUVytw/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/rcRmQsUVytw/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     },
+     "qhd": {
+      "url": "https://i.ytimg.com/vi/rcRmQsUVytw/qhddefault.jpg",
+      "width": 2560,
+      "height": 1440
+     }
+    }
+   ]
+  }
+ },
+ {
+  "at": "2026-10-26T05:34:23.317467",
+  "platform": "youtube",
+  "method": "GET",
+  "url": "https://www.googleapis.com/youtube/v3/playlists",
+  "status": 200,
+  "response": {
+   "kind": "youtube#playlistListResponse",
+   "etag": "1MpJgf5SDZhOulOtYW0Y81BEw1c",
+   "pageInfo": {
+    "totalResults": 4,
+    "resultsPerPage": 50
+   },
+   "items": [
+    {
+     "kind": "youtube#playlist",
+     "etag": "E-aQiQwKcNPTgFBN84FIH1zBOb8",
+     "id": "PLAjchdXH3H5k",
+     "snippet": {
+      "publishedAt": "2026-10-22T20:15:33.754086513Z",
+      "channelId": "UCB2uvZ-zeLryreR2msWBpxQ",
+      "title": "Website Tips for Business Owners (Hinglish)",
+      "description": "Short Hinglish website tips for business owners: social proof, enquiry forms, template vs custom website, local SEO, Google Business Profile aur WhatsApp automation. Har Short mein ek problem aur uska simple fix.\n\nWebsite: https://webeventuals.com",
+      "thumbnails": {
+       "default": {
+        "url": "https://i.ytimg.com/vi/YdUNJANp4Jg/default.jpg",
+        "width": 120,
+        "height": 90
+       },
+       "medium": {
+        "url": "https://i.ytimg.com/vi/YdUNJANp4Jg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+       },
+       "high": {
+        "url": "https://i.ytimg.com/vi/YdUNJANp4Jg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+       },
+       "standard": {
+        "url": "https://i.ytimg.com/vi/YdUNJANp4Jg/sddefault.jpg",
+        "width": 640,
+        "height": 480
+       },
+       "maxres": {
+        "url": "https://i.ytimg.com/vi/YdUNJANp4Jg/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+       },
+       "qhd": {
+        "url": "https://i.ytimg.com/vi/YdUNJANp4Jg/qhddefault.jpg",
+        "width": 2560,
+        "height": 1440
+       }
+      },
+      "channelTitle": "Web Eventuals",
+      "defaultLanguage": "hi",
+      "localized": {
+       "title": "Website Tips for Business Owners (Hinglish)",
+       "description": "Short Hinglish website tips for business owners: social proof, enquiry forms, template vs custom website, local SEO, Google Business Profile aur WhatsApp automation. Har Short mein ek problem aur uska simple fix.\n\nWebsite: https://webeventuals.com"
+      }
+     }
+    },
+    {
+     "kind": "youtube#playlist",
+     "etag": "mJY2o4IM1Mr14VXuqyPfuBtKm6o",
+     "id": "PLIAWHEAbY1ZU",
+     "snippet": {
+      "publishedAt": "2026-09-26T09:31:31.144133Z",
+      "channelId": "UCB2uvZ-zeLryreR2msWBpxQ",
+      "title": "Website Rebuild",
+      "description": "",
+      "thumbnails": {
+       "default": {
+        "url": "https://i.ytimg.com/vi/tEQvni4oa-A/default.jpg",
+        "width": 120,
+        "height": 90
+       },
+       "medium": {
+        "url": "https://i.ytimg.com/vi/tEQvni4oa-A/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+       },
+       "high": {
+        "url": "https://i.ytimg.com/vi/tEQvni4oa-A/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+       },
+       "standard": {
+        "url": "https://i.ytimg.com/vi/tEQvni4oa-A/sddefault.jpg",
+        "width": 640,
+        "height": 480
+       },
+       "maxres": {
+        "url": "https://i.ytimg.com/vi/tEQvni4oa-A/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+       }
+      },
+      "channelTitle": "Web Eventuals",
+      "localized": {
+       "title": "Website Rebuild",
+       "description": ""
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "at": "2026-10-26T05:34:23.794566",
+  "platform": "youtube",
+  "method": "POST",
+  "url": "https://www.googleapis.com/youtube/v3/playlistItems",
+  "status": 200,
+  "response": {
+   "kind": "youtube#playlistItem",
+   "etag": "nkDL59Op93KuYCPBKJhxR0RqKCs",
+   "id": "UExBamNoZFhIM0g1ay4wOTA3OTZBNzVEMTUzOTMy",
+   "snippet": {
+    "publishedAt": "2026-10-26T05:34:23Z",
+    "channelId": "UCB2uvZ-zeLryreR2msWBpxQ",
+    "title": "Business me grahak kaise badhaye? 3 asli totke #Shorts",
+    "description": "Dukaan me grahak kaise badhaye, grahak badhane ka totka, dukaan ki bikri kaise badhaye: ye 3 asli tarike.\n\nBagal wali dukaan pe bheed hai aur aapki shop khaali? Farq in teen cheezon ka hai, aur kharcha lagbhag zero.\n\n1. Shop ka front: light on, board saaf, best saamaan saamne.\n2. Pehle 5 second: phone side mein, khade hokar \"aaiye, bataiye kya dikhaun?\"\n3. Counter pe chhota board: aaj ka offer ya new stock.\n\nAapki shop ka sabse pakka totka kaun sa hai? Comment kariye.\n\nWebsite: https://webeventuals.com\nWhatsApp: https://wa.me/918310377082\n\nAise aur business tips ke liye channel subscribe kariye.\n\n#Shorts #SmallBusiness #ShopOwner",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/rcRmQsUVytw/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/rcRmQsUVytw/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/rcRmQsUVytw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/rcRmQsUVytw/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/rcRmQsUVytw/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     },
+     "qhd": {
+      "url": "https://i.ytimg.com/vi/rcRmQsUVytw/qhddefault.jpg",
+      "width": 2560,
+      "height": 1440
+     }
+    },
+    "channelTitle": "Web Eventuals",
+    "playlistId": "PLAjchdXH3H5k",
+    "position": 0,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "rcRmQsUVytw"
+    },
+    "videoOwnerChannelTitle": "Web Eventuals",
+    "videoOwnerChannelId": "UCB2uvZ-zeLryreR2msWBpxQ"
+   }
+  }
+ }
+]
