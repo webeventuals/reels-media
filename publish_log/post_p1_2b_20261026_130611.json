@@ -1,0 +1,255 @@
+[
+ {
+  "at": "2026-10-26T13:05:21.545106",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media",
+  "status": 200,
+  "response": {
+   "id": "18099903512425006"
+  }
+ },
+ {
+  "at": "2026-10-26T13:05:24.500957",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media",
+  "status": 200,
+  "response": {
+   "id": "18099903533425006"
+  }
+ },
+ {
+  "at": "2026-10-26T13:05:27.485681",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media",
+  "status": 200,
+  "response": {
+   "id": "18099903554425006"
+  }
+ },
+ {
+  "at": "2026-10-26T13:05:30.006794",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media",
+  "status": 200,
+  "response": {
+   "id": "18099903578425006"
+  }
+ },
+ {
+  "at": "2026-10-26T13:05:33.305339",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media",
+  "status": 200,
+  "response": {
+   "id": "18099903602425006"
+  }
+ },
+ {
+  "at": "2026-10-26T13:05:35.842015",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media",
+  "status": 200,
+  "response": {
+   "id": "18099903623425006"
+  }
+ },
+ {
+  "at": "2026-10-26T13:05:38.458126",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media",
+  "status": 200,
+  "response": {
+   "id": "18099903641425006"
+  }
+ },
+ {
+  "at": "2026-10-26T13:05:43.797681",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18099903641425006",
+  "status": 200,
+  "response": {
+   "status_code": "FINISHED",
+   "status": "FINISHED",
+   "id": "18099903641425006"
+  }
+ },
+ {
+  "at": "2026-10-26T13:05:47.963304",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media_publish",
+  "status": 200,
+  "response": {
+   "id": "18131675900497246"
+  }
+ },
+ {
+  "at": "2026-10-26T13:05:48.260848",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18131675900497246",
+  "status": 200,
+  "response": {
+   "permalink": "https://www.instagram.com/p/De9WXMtFVY9/",
+   "id": "18131675900497246"
+  }
+ },
+ {
+  "at": "2026-10-26T13:05:50.773477",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads",
+  "status": 200,
+  "response": {
+   "id": "17940080793385935"
+  }
+ },
+ {
+  "at": "2026-10-26T13:05:53.012050",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads",
+  "status": 200,
+  "response": {
+   "id": "17940080817385935"
+  }
+ },
+ {
+  "at": "2026-10-26T13:05:55.599006",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads",
+  "status": 200,
+  "response": {
+   "id": "17940080850385935"
+  }
+ },
+ {
+  "at": "2026-10-26T13:05:58.179430",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads",
+  "status": 200,
+  "response": {
+   "id": "17940080922385935"
+  }
+ },
+ {
+  "at": "2026-10-26T13:06:00.628899",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads",
+  "status": 200,
+  "response": {
+   "id": "17940081093385935"
+  }
+ },
+ {
+  "at": "2026-10-26T13:06:03.027054",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads",
+  "status": 200,
+  "response": {
+   "id": "17940081117385935"
+  }
+ },
+ {
+  "at": "2026-10-26T13:06:03.520786",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads",
+  "status": 400,
+  "response": {
+   "error": {
+    "message": "Invalid parameter",
+    "type": "OAuthException",
+    "code": 100,
+    "error_subcode": 4279004,
+    "is_transient": false,
+    "error_user_title": "Invalid Carousel Children",
+    "error_user_msg": "The children with IDs 17940081117385935 are invalid, nonexistent, or expired.",
+    "fbtrace_id": "AUnQmvliC3-VWqG_TJeKova"
+   }
+  }
+ },
+ {
+  "at": "2026-10-26T13:06:04.663173",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/photos",
+  "status": 200,
+  "response": {
+   "id": "1641960111277396"
+  }
+ },
+ {
+  "at": "2026-10-26T13:06:05.410906",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/photos",
+  "status": 200,
+  "response": {
+   "id": "1641960147944059"
+  }
+ },
+ {
+  "at": "2026-10-26T13:06:06.152876",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/photos",
+  "status": 200,
+  "response": {
+   "id": "1641960207944053"
+  }
+ },
+ {
+  "at": "2026-10-26T13:06:06.864586",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/photos",
+  "status": 200,
+  "response": {
+   "id": "1641960274610713"
+  }
+ },
+ {
+  "at": "2026-10-26T13:06:07.643163",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/photos",
+  "status": 200,
+  "response": {
+   "id": "1641960314610709"
+  }
+ },
+ {
+  "at": "2026-10-26T13:06:08.388807",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/photos",
+  "status": 200,
+  "response": {
+   "id": "1641960354610705"
+  }
+ },
+ {
+  "at": "2026-10-26T13:06:11.546727",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/feed",
+  "status": 200,
+  "response": {
+   "id": "299752760803587_1641960387944035",
+   "post_supports_client_mutation_id": true
+  }
+ }
+]

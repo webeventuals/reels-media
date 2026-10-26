@@ -1,0 +1,17 @@
+{
+ "instagram": {
+  "ok": true,
+  "ref": "https://www.instagram.com/p/De9WXMtFVY9/",
+  "at": "2026-10-26T13:05:48.261653"
+ },
+ "threads": {
+  "ok": false,
+  "error": "threads https://graph.threads.net/v1.0/28756370610668741/threads 400 {'error': {'message': 'Invalid parameter', 'type': 'OAuthException', 'code': 100, 'error_subcode': 4279004, 'is_transient': False, 'error_user_title': 'Invalid Carousel Children', 'error_user_msg': 'The children with IDs 17940081117385935 are invalid, nonexistent, or expired.', 'fbtrace_id': 'AUnQmvliC3-VWqG_TJeKova'}}",
+  "at": "2026-10-26T13:06:03.520806"
+ },
+ "facebook": {
+  "ok": true,
+  "ref": "299752760803587_1641960387944035",
+  "at": "2026-10-26T13:06:11.547528"
+ }
+}
