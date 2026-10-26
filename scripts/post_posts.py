@@ -34,6 +34,9 @@ def threads(call, m):
     kids = [call("threads", "POST", f"{B}/{u}/threads",
                  data={"media_type": "IMAGE", "image_url": x, "is_carousel_item": "true", "access_token": t})["id"]
             for x in urls(m)]
+    for k in kids:  # carousel create rejects children still processing
+        poll(call, "threads", f"{B}/{k}", {"fields": "status,error_message", "access_token": t},
+             lambda j: j.get("status") == "FINISHED", ('"ERROR"', '"EXPIRED"'), wait=3)
     c = call("threads", "POST", f"{B}/{u}/threads",
              data={"media_type": "CAROUSEL", "children": ",".join(kids), "text": m["threads"], "access_token": t})["id"]
     poll(call, "threads", f"{B}/{c}", {"fields": "status,error_message", "access_token": t},
