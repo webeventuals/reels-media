@@ -1,0 +1,170 @@
+[
+ {
+  "at": "2026-10-26T13:07:10.974614",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads",
+  "status": 200,
+  "response": {
+   "id": "17940081204385935"
+  }
+ },
+ {
+  "at": "2026-10-26T13:07:13.777291",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads",
+  "status": 200,
+  "response": {
+   "id": "17940081225385935"
+  }
+ },
+ {
+  "at": "2026-10-26T13:07:16.367892",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads",
+  "status": 200,
+  "response": {
+   "id": "17940081249385935"
+  }
+ },
+ {
+  "at": "2026-10-26T13:07:19.113825",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads",
+  "status": 200,
+  "response": {
+   "id": "17940081276385935"
+  }
+ },
+ {
+  "at": "2026-10-26T13:07:21.996882",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads",
+  "status": 200,
+  "response": {
+   "id": "17940081312385935"
+  }
+ },
+ {
+  "at": "2026-10-26T13:07:24.974203",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads",
+  "status": 200,
+  "response": {
+   "id": "17940081336385935"
+  }
+ },
+ {
+  "at": "2026-10-26T13:07:28.219297",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17940081204385935",
+  "status": 200,
+  "response": {
+   "id": "17940081204385935",
+   "status": "FINISHED"
+  }
+ },
+ {
+  "at": "2026-10-26T13:07:31.443595",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17940081225385935",
+  "status": 200,
+  "response": {
+   "id": "17940081225385935",
+   "status": "FINISHED"
+  }
+ },
+ {
+  "at": "2026-10-26T13:07:34.701285",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17940081249385935",
+  "status": 200,
+  "response": {
+   "id": "17940081249385935",
+   "status": "FINISHED"
+  }
+ },
+ {
+  "at": "2026-10-26T13:07:37.862684",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17940081276385935",
+  "status": 200,
+  "response": {
+   "id": "17940081276385935",
+   "status": "FINISHED"
+  }
+ },
+ {
+  "at": "2026-10-26T13:07:41.141444",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17940081312385935",
+  "status": 200,
+  "response": {
+   "id": "17940081312385935",
+   "status": "FINISHED"
+  }
+ },
+ {
+  "at": "2026-10-26T13:07:44.422728",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17940081336385935",
+  "status": 200,
+  "response": {
+   "id": "17940081336385935",
+   "status": "FINISHED"
+  }
+ },
+ {
+  "at": "2026-10-26T13:07:47.734561",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads",
+  "status": 200,
+  "response": {
+   "id": "17940081402385935"
+  }
+ },
+ {
+  "at": "2026-10-26T13:07:52.885996",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17940081402385935",
+  "status": 200,
+  "response": {
+   "id": "17940081402385935",
+   "status": "FINISHED"
+  }
+ },
+ {
+  "at": "2026-10-26T13:07:57.282624",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads_publish",
+  "status": 200,
+  "response": {
+   "id": "18082303127364526"
+  }
+ },
+ {
+  "at": "2026-10-26T13:07:57.571085",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/18082303127364526",
+  "status": 200,
+  "response": {
+   "id": "18082303127364526",
+   "permalink": "https://www.threads.com/@web_eventuals/post/De9Wm6uERp2"
+  }
+ }
+]
