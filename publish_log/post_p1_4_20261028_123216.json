@@ -1,0 +1,344 @@
+[
+ {
+  "at": "2026-10-28T12:30:44.193818",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media",
+  "status": 200,
+  "response": {
+   "id": "18100185314425006"
+  }
+ },
+ {
+  "at": "2026-10-28T12:30:47.472045",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media",
+  "status": 200,
+  "response": {
+   "id": "18100185341425006"
+  }
+ },
+ {
+  "at": "2026-10-28T12:30:50.694606",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media",
+  "status": 200,
+  "response": {
+   "id": "18100185368425006"
+  }
+ },
+ {
+  "at": "2026-10-28T12:30:54.154201",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media",
+  "status": 200,
+  "response": {
+   "id": "18100185395425006"
+  }
+ },
+ {
+  "at": "2026-10-28T12:30:57.699233",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media",
+  "status": 200,
+  "response": {
+   "id": "18100185467425006"
+  }
+ },
+ {
+  "at": "2026-10-28T12:31:00.830998",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media",
+  "status": 200,
+  "response": {
+   "id": "18100185491425006"
+  }
+ },
+ {
+  "at": "2026-10-28T12:31:04.131448",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media",
+  "status": 200,
+  "response": {
+   "id": "18100185512425006"
+  }
+ },
+ {
+  "at": "2026-10-28T12:31:09.327495",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18100185512425006",
+  "status": 200,
+  "response": {
+   "status_code": "FINISHED",
+   "status": "FINISHED",
+   "id": "18100185512425006"
+  }
+ },
+ {
+  "at": "2026-10-28T12:31:14.115416",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media_publish",
+  "status": 200,
+  "response": {
+   "id": "17918459736525060"
+  }
+ },
+ {
+  "at": "2026-10-28T12:31:14.287380",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/17918459736525060",
+  "status": 200,
+  "response": {
+   "permalink": "https://www.instagram.com/p/DfCb_o8Fu3L/",
+   "id": "17918459736525060"
+  }
+ },
+ {
+  "at": "2026-10-28T12:31:17.091202",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads",
+  "status": 200,
+  "response": {
+   "id": "17940440262385935"
+  }
+ },
+ {
+  "at": "2026-10-28T12:31:19.873901",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads",
+  "status": 200,
+  "response": {
+   "id": "17940440301385935"
+  }
+ },
+ {
+  "at": "2026-10-28T12:31:23.152304",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads",
+  "status": 200,
+  "response": {
+   "id": "17940440385385935"
+  }
+ },
+ {
+  "at": "2026-10-28T12:31:26.041987",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads",
+  "status": 200,
+  "response": {
+   "id": "17940440433385935"
+  }
+ },
+ {
+  "at": "2026-10-28T12:31:28.695044",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads",
+  "status": 200,
+  "response": {
+   "id": "17940440460385935"
+  }
+ },
+ {
+  "at": "2026-10-28T12:31:32.318303",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads",
+  "status": 200,
+  "response": {
+   "id": "17940440505385935"
+  }
+ },
+ {
+  "at": "2026-10-28T12:31:35.672257",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17940440262385935",
+  "status": 200,
+  "response": {
+   "id": "17940440262385935",
+   "status": "FINISHED"
+  }
+ },
+ {
+  "at": "2026-10-28T12:31:38.993225",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17940440301385935",
+  "status": 200,
+  "response": {
+   "id": "17940440301385935",
+   "status": "FINISHED"
+  }
+ },
+ {
+  "at": "2026-10-28T12:31:42.197504",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17940440385385935",
+  "status": 200,
+  "response": {
+   "id": "17940440385385935",
+   "status": "FINISHED"
+  }
+ },
+ {
+  "at": "2026-10-28T12:31:45.405928",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17940440433385935",
+  "status": 200,
+  "response": {
+   "id": "17940440433385935",
+   "status": "FINISHED"
+  }
+ },
+ {
+  "at": "2026-10-28T12:31:48.613626",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17940440460385935",
+  "status": 200,
+  "response": {
+   "id": "17940440460385935",
+   "status": "FINISHED"
+  }
+ },
+ {
+  "at": "2026-10-28T12:31:51.812896",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17940440505385935",
+  "status": 200,
+  "response": {
+   "id": "17940440505385935",
+   "status": "FINISHED"
+  }
+ },
+ {
+  "at": "2026-10-28T12:31:54.776717",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads",
+  "status": 200,
+  "response": {
+   "id": "17940440817385935"
+  }
+ },
+ {
+  "at": "2026-10-28T12:31:59.984655",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17940440817385935",
+  "status": 200,
+  "response": {
+   "id": "17940440817385935",
+   "status": "FINISHED"
+  }
+ },
+ {
+  "at": "2026-10-28T12:32:03.562791",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads_publish",
+  "status": 200,
+  "response": {
+   "id": "18417515116081766"
+  }
+ },
+ {
+  "at": "2026-10-28T12:32:03.805606",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/18417515116081766",
+  "status": 200,
+  "response": {
+   "id": "18417515116081766",
+   "permalink": "https://www.threads.com/@web_eventuals/post/DfCcF6Cllop"
+  }
+ },
+ {
+  "at": "2026-10-28T12:32:05.986429",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/photos",
+  "status": 200,
+  "response": {
+   "id": "1644152517724822"
+  }
+ },
+ {
+  "at": "2026-10-28T12:32:07.472017",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/photos",
+  "status": 200,
+  "response": {
+   "id": "1644152571058150"
+  }
+ },
+ {
+  "at": "2026-10-28T12:32:08.780212",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/photos",
+  "status": 200,
+  "response": {
+   "id": "1644152627724811"
+  }
+ },
+ {
+  "at": "2026-10-28T12:32:10.118747",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/photos",
+  "status": 200,
+  "response": {
+   "id": "1644152664391474"
+  }
+ },
+ {
+  "at": "2026-10-28T12:32:11.443953",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/photos",
+  "status": 200,
+  "response": {
+   "id": "1644152707724803"
+  }
+ },
+ {
+  "at": "2026-10-28T12:32:12.908727",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/photos",
+  "status": 200,
+  "response": {
+   "id": "1644152744391466"
+  }
+ },
+ {
+  "at": "2026-10-28T12:32:16.887766",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/feed",
+  "status": 200,
+  "response": {
+   "id": "299752760803587_1644152784391462",
+   "post_supports_client_mutation_id": true
+  }
+ }
+]
