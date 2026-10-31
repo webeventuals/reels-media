@@ -1,0 +1,451 @@
+[
+ {
+  "at": "2026-10-31T05:31:08.389394",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media",
+  "status": 200,
+  "response": {
+   "id": "18100540172425006"
+  }
+ },
+ {
+  "at": "2026-10-31T05:31:28.692477",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18100540172425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18100540172425006"
+  }
+ },
+ {
+  "at": "2026-10-31T05:31:48.882066",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18100540172425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18100540172425006"
+  }
+ },
+ {
+  "at": "2026-10-31T05:32:09.214084",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18100540172425006",
+  "status": 200,
+  "response": {
+   "status_code": "FINISHED",
+   "status": "FINISHED",
+   "id": "18100540172425006"
+  }
+ },
+ {
+  "at": "2026-10-31T05:32:19.231844",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media_publish",
+  "status": 200,
+  "response": {
+   "id": "18116789291583337"
+  }
+ },
+ {
+  "at": "2026-10-31T05:32:19.480088",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18116789291583337",
+  "status": 200,
+  "response": {
+   "permalink": "https://www.instagram.com/reel/DfJaVW1EW5s/",
+   "id": "18116789291583337"
+  }
+ },
+ {
+  "at": "2026-10-31T05:32:20.515580",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads",
+  "status": 200,
+  "response": {
+   "id": "17940953505385935"
+  }
+ },
+ {
+  "at": "2026-10-31T05:32:40.850386",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17940953505385935",
+  "status": 200,
+  "response": {
+   "id": "17940953505385935",
+   "status": "IN_PROGRESS"
+  }
+ },
+ {
+  "at": "2026-10-31T05:33:01.165690",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17940953505385935",
+  "status": 200,
+  "response": {
+   "id": "17940953505385935",
+   "status": "FINISHED"
+  }
+ },
+ {
+  "at": "2026-10-31T05:33:06.061063",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads_publish",
+  "status": 200,
+  "response": {
+   "id": "18034117673855260"
+  }
+ },
+ {
+  "at": "2026-10-31T05:33:06.318266",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/18034117673855260",
+  "status": 200,
+  "response": {
+   "id": "18034117673855260",
+   "permalink": "https://www.threads.com/@web_eventuals/post/DfJaeFYlBS1"
+  }
+ },
+ {
+  "at": "2026-10-31T05:33:08.015432",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/video_reels",
+  "status": 200,
+  "response": {
+   "video_id": "1790999478826064",
+   "upload_url": "https://rupload.facebook.com/video-upload/v26.0/1790999478826064"
+  }
+ },
+ {
+  "at": "2026-10-31T05:33:10.546777",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://rupload.facebook.com/video-upload/v26.0/1790999478826064",
+  "status": 200,
+  "response": {
+   "success": true,
+   "message": "Upload Successful. To check the status of the video, please follow the instructions listed at https://developers.facebook.com/docs/video-api/guides/reels-publishing#get-the-upload-status."
+  }
+ },
+ {
+  "at": "2026-10-31T05:33:32.910939",
+  "platform": "facebook",
+  "method": "GET",
+  "url": "https://graph.facebook.com/v21.0/1790999478826064",
+  "status": 200,
+  "response": {
+   "status": {
+    "video_status": "upload_complete",
+    "uploading_phase": {
+     "status": "complete",
+     "bytes_transferred": 2647413
+    },
+    "processing_phase": {
+     "status": "not_started"
+    },
+    "publishing_phase": {
+     "status": "not_started"
+    },
+    "copyright_check_status": {
+     "status": "complete",
+     "matches_found": false
+    }
+   },
+   "id": "1790999478826064"
+  }
+ },
+ {
+  "at": "2026-10-31T05:33:36.452120",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/video_reels",
+  "status": 200,
+  "response": {
+   "success": true,
+   "message": "Video is Processing. To check the status of the video, please follow the instructions listed at https://developers.facebook.com/docs/video-api/guides/reels-publishing#get-the-upload-status.",
+   "post_id": "1647188990754508"
+  }
+ },
+ {
+  "at": "2026-10-31T05:33:38.322155",
+  "platform": "youtube",
+  "method": "PUT",
+  "url": "https://www.googleapis.com/upload/youtube/v3/videos",
+  "status": 200,
+  "response": {
+   "kind": "youtube#video",
+   "etag": "5iYjJyawhtp-0TveXqh1sTSXr0U",
+   "id": "NxaPOuBsa8M",
+   "snippet": {
+    "publishedAt": "2026-10-31T05:33:36Z",
+    "channelId": "UCB2uvZ-zeLryreR2msWBpxQ",
+    "title": "Google par business kaise dale? 3 step, bilkul free #Shorts",
+    "description": "Google par business kaise dale: Google Maps pe dukaan free mein daalne ke 3 step.\n\n1. Maps mein Add your business: sahi naam, category, aur pin dukaan pe.\n2. Phone number, khulne ka time, aur verify.\n3. Asli photos: board, counter, maal.\n\nAapki dukaan Google pe dikhti hai ya nahi? Comment kariye.\n\nWebsite: https://webeventuals.com\nWhatsApp: https://wa.me/918310377082\n\nAise aur business tips ke liye channel subscribe kariye.\n\n#Shorts #GoogleMaps #ShopOwner",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/NxaPOuBsa8M/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/NxaPOuBsa8M/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/NxaPOuBsa8M/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Web Eventuals",
+    "categoryId": "27",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "hi",
+    "localized": {
+     "title": "Google par business kaise dale? 3 step, bilkul free #Shorts",
+     "description": "Google par business kaise dale: Google Maps pe dukaan free mein daalne ke 3 step.\n\n1. Maps mein Add your business: sahi naam, category, aur pin dukaan pe.\n2. Phone number, khulne ka time, aur verify.\n3. Asli photos: board, counter, maal.\n\nAapki dukaan Google pe dikhti hai ya nahi? Comment kariye.\n\nWebsite: https://webeventuals.com\nWhatsApp: https://wa.me/918310377082\n\nAise aur business tips ke liye channel subscribe kariye.\n\n#Shorts #GoogleMaps #ShopOwner"
+    },
+    "defaultAudioLanguage": "hi"
+   },
+   "status": {
+    "uploadStatus": "uploaded",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "selfDeclaredMadeForKids": false
+   },
+   "recordingDetails": {
+    "recordingDate": "2026-10-31T00:00:00Z"
+   }
+  }
+ },
+ {
+  "at": "2026-10-31T05:33:41.889370",
+  "platform": "youtube",
+  "method": "POST",
+  "url": "https://www.googleapis.com/upload/youtube/v3/thumbnails/set",
+  "status": 200,
+  "response": {
+   "kind": "youtube#thumbnailSetResponse",
+   "etag": "hEu93989jtIP_2LuBtsxjd08Jgk",
+   "items": [
+    {
+     "default": {
+      "url": "https://i.ytimg.com/vi/NxaPOuBsa8M/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/NxaPOuBsa8M/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/NxaPOuBsa8M/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/NxaPOuBsa8M/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/NxaPOuBsa8M/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     },
+     "qhd": {
+      "url": "https://i.ytimg.com/vi/NxaPOuBsa8M/qhddefault.jpg",
+      "width": 2560,
+      "height": 1440
+     }
+    }
+   ]
+  }
+ },
+ {
+  "at": "2026-10-31T05:33:42.030322",
+  "platform": "youtube",
+  "method": "GET",
+  "url": "https://www.googleapis.com/youtube/v3/playlists",
+  "status": 200,
+  "response": {
+   "kind": "youtube#playlistListResponse",
+   "etag": "hkDKbtjPvvONB3t7wJPt2_1ceLA",
+   "pageInfo": {
+    "totalResults": 4,
+    "resultsPerPage": 50
+   },
+   "items": [
+    {
+     "kind": "youtube#playlist",
+     "etag": "K7H32nFr46XlZae7cZpMqCRgSzw",
+     "id": "PLAjchdXH3H5k",
+     "snippet": {
+      "publishedAt": "2026-10-22T20:15:33.754086513Z",
+      "channelId": "UCB2uvZ-zeLryreR2msWBpxQ",
+      "title": "Website Tips for Business Owners (Hinglish)",
+      "description": "Short Hinglish website tips for business owners: social proof, enquiry forms, template vs custom website, local SEO, Google Business Profile aur WhatsApp automation. Har Short mein ek problem aur uska simple fix.\n\nWebsite: https://webeventuals.com",
+      "thumbnails": {
+       "default": {
+        "url": "https://i.ytimg.com/vi/vSJJ2ZX9fEc/default.jpg",
+        "width": 120,
+        "height": 90
+       },
+       "medium": {
+        "url": "https://i.ytimg.com/vi/vSJJ2ZX9fEc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+       },
+       "high": {
+        "url": "https://i.ytimg.com/vi/vSJJ2ZX9fEc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+       },
+       "standard": {
+        "url": "https://i.ytimg.com/vi/vSJJ2ZX9fEc/sddefault.jpg",
+        "width": 640,
+        "height": 480
+       },
+       "maxres": {
+        "url": "https://i.ytimg.com/vi/vSJJ2ZX9fEc/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+       },
+       "qhd": {
+        "url": "https://i.ytimg.com/vi/vSJJ2ZX9fEc/qhddefault.jpg",
+        "width": 2560,
+        "height": 1440
+       }
+      },
+      "channelTitle": "Web Eventuals",
+      "defaultLanguage": "hi",
+      "localized": {
+       "title": "Website Tips for Business Owners (Hinglish)",
+       "description": "Short Hinglish website tips for business owners: social proof, enquiry forms, template vs custom website, local SEO, Google Business Profile aur WhatsApp automation. Har Short mein ek problem aur uska simple fix.\n\nWebsite: https://webeventuals.com"
+      }
+     }
+    },
+    {
+     "kind": "youtube#playlist",
+     "etag": "mJY2o4IM1Mr14VXuqyPfuBtKm6o",
+     "id": "PLIAWHEAbY1ZU",
+     "snippet": {
+      "publishedAt": "2026-09-26T09:31:31.144133Z",
+      "channelId": "UCB2uvZ-zeLryreR2msWBpxQ",
+      "title": "Website Rebuild",
+      "description": "",
+      "thumbnails": {
+       "default": {
+        "url": "https://i.ytimg.com/vi/tEQvni4oa-A/default.jpg",
+        "width": 120,
+        "height": 90
+       },
+       "medium": {
+        "url": "https://i.ytimg.com/vi/tEQvni4oa-A/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+       },
+       "high": {
+        "url": "https://i.ytimg.com/vi/tEQvni4oa-A/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+       },
+       "standard": {
+        "url": "https://i.ytimg.com/vi/tEQvni4oa-A/sddefault.jpg",
+        "width": 640,
+        "height": 480
+       },
+       "maxres": {
+        "url": "https://i.ytimg.com/vi/tEQvni4oa-A/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+       }
+      },
+      "channelTitle": "Web Eventuals",
+      "localized": {
+       "title": "Website Rebuild",
+       "description": ""
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "at": "2026-10-31T05:33:42.728084",
+  "platform": "youtube",
+  "method": "POST",
+  "url": "https://www.googleapis.com/youtube/v3/playlistItems",
+  "status": 200,
+  "response": {
+   "kind": "youtube#playlistItem",
+   "etag": "cE199qD_H5d-r2-66hWig0Fjv4g",
+   "id": "UExBamNoZFhIM0g1ay5GNjNDRDREMDQxOThCMDQ2",
+   "snippet": {
+    "publishedAt": "2026-10-31T05:33:42Z",
+    "channelId": "UCB2uvZ-zeLryreR2msWBpxQ",
+    "title": "Google par business kaise dale? 3 step, bilkul free #Shorts",
+    "description": "Google par business kaise dale: Google Maps pe dukaan free mein daalne ke 3 step.\n\n1. Maps mein Add your business: sahi naam, category, aur pin dukaan pe.\n2. Phone number, khulne ka time, aur verify.\n3. Asli photos: board, counter, maal.\n\nAapki dukaan Google pe dikhti hai ya nahi? Comment kariye.\n\nWebsite: https://webeventuals.com\nWhatsApp: https://wa.me/918310377082\n\nAise aur business tips ke liye channel subscribe kariye.\n\n#Shorts #GoogleMaps #ShopOwner",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/NxaPOuBsa8M/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/NxaPOuBsa8M/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/NxaPOuBsa8M/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/NxaPOuBsa8M/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/NxaPOuBsa8M/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     },
+     "qhd": {
+      "url": "https://i.ytimg.com/vi/NxaPOuBsa8M/qhddefault.jpg",
+      "width": 2560,
+      "height": 1440
+     }
+    },
+    "channelTitle": "Web Eventuals",
+    "playlistId": "PLAjchdXH3H5k",
+    "position": 0,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "NxaPOuBsa8M"
+    },
+    "videoOwnerChannelTitle": "Web Eventuals",
+    "videoOwnerChannelId": "UCB2uvZ-zeLryreR2msWBpxQ"
+   }
+  }
+ }
+]
