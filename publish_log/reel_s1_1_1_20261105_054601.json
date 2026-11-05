@@ -1,0 +1,306 @@
+[
+ {
+  "at": "2026-11-05T05:42:43.964408",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media",
+  "status": 200,
+  "response": {
+   "id": "18101073944425006"
+  }
+ },
+ {
+  "at": "2026-11-05T05:43:04.293413",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18101073944425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18101073944425006"
+  }
+ },
+ {
+  "at": "2026-11-05T05:43:24.439913",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18101073944425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18101073944425006"
+  }
+ },
+ {
+  "at": "2026-11-05T05:43:45.069221",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18101073944425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18101073944425006"
+  }
+ },
+ {
+  "at": "2026-11-05T05:44:05.375393",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18101073944425006",
+  "status": 200,
+  "response": {
+   "status_code": "FINISHED",
+   "status": "FINISHED",
+   "id": "18101073944425006"
+  }
+ },
+ {
+  "at": "2026-11-05T05:44:16.409492",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media_publish",
+  "status": 200,
+  "response": {
+   "id": "18038276297849461"
+  }
+ },
+ {
+  "at": "2026-11-05T05:44:16.685253",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18038276297849461",
+  "status": 200,
+  "response": {
+   "permalink": "https://www.instagram.com/reel/DfWTspCD4O7/",
+   "id": "18038276297849461"
+  }
+ },
+ {
+  "at": "2026-11-05T05:44:17.778311",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads",
+  "status": 200,
+  "response": {
+   "id": "17941825230385935"
+  }
+ },
+ {
+  "at": "2026-11-05T05:44:37.979824",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17941825230385935",
+  "status": 200,
+  "response": {
+   "id": "17941825230385935",
+   "status": "IN_PROGRESS"
+  }
+ },
+ {
+  "at": "2026-11-05T05:44:58.139277",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17941825230385935",
+  "status": 200,
+  "response": {
+   "id": "17941825230385935",
+   "status": "IN_PROGRESS"
+  }
+ },
+ {
+  "at": "2026-11-05T05:45:18.760298",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17941825230385935",
+  "status": 200,
+  "response": {
+   "id": "17941825230385935",
+   "status": "FINISHED"
+  }
+ },
+ {
+  "at": "2026-11-05T05:45:24.485955",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads_publish",
+  "status": 200,
+  "response": {
+   "id": "17958566544257223"
+  }
+ },
+ {
+  "at": "2026-11-05T05:45:24.814974",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17958566544257223",
+  "status": 200,
+  "response": {
+   "id": "17958566544257223",
+   "permalink": "https://www.threads.com/@web_eventuals/post/DfWT0C-hePB"
+  }
+ },
+ {
+  "at": "2026-11-05T05:45:27.088112",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/video_reels",
+  "status": 200,
+  "response": {
+   "video_id": "2136946063882660",
+   "upload_url": "https://rupload.facebook.com/video-upload/v27.0/2136946063882660"
+  }
+ },
+ {
+  "at": "2026-11-05T05:45:30.389144",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://rupload.facebook.com/video-upload/v27.0/2136946063882660",
+  "status": 200,
+  "response": {
+   "success": true,
+   "message": "Upload Successful. To check the status of the video, please follow the instructions listed at https://developers.facebook.com/docs/video-api/guides/reels-publishing#get-the-upload-status."
+  }
+ },
+ {
+  "at": "2026-11-05T05:45:51.568060",
+  "platform": "facebook",
+  "method": "GET",
+  "url": "https://graph.facebook.com/v21.0/2136946063882660",
+  "status": 200,
+  "response": {
+   "status": {
+    "video_status": "upload_complete",
+    "uploading_phase": {
+     "status": "complete",
+     "bytes_transferred": 16907724
+    },
+    "processing_phase": {
+     "status": "not_started"
+    },
+    "publishing_phase": {
+     "status": "not_started"
+    },
+    "copyright_check_status": {
+     "status": "complete",
+     "matches_found": false
+    }
+   },
+   "id": "2136946063882660"
+  }
+ },
+ {
+  "at": "2026-11-05T05:45:55.880438",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/video_reels",
+  "status": 200,
+  "response": {
+   "success": true,
+   "message": "Video is Processing. To check the status of the video, please follow the instructions listed at https://developers.facebook.com/docs/video-api/guides/reels-publishing#get-the-upload-status.",
+   "post_id": "1652793193527421"
+  }
+ },
+ {
+  "at": "2026-11-05T05:45:58.194167",
+  "platform": "youtube",
+  "method": "PUT",
+  "url": "https://www.googleapis.com/upload/youtube/v3/videos",
+  "status": 200,
+  "response": {
+   "kind": "youtube#video",
+   "etag": "b8dnMD9xzOaok29G5OsUmPijnXs",
+   "id": "BwHFoAu96Bg",
+   "snippet": {
+    "publishedAt": "2026-11-05T05:45:56Z",
+    "channelId": "UCB2uvZ-zeLryreR2msWBpxQ",
+    "title": "Udhar Dena Chahiye Ya Nahi? Bina limit ka udhaar #Shorts",
+    "description": "udhar dena chahiye ya nahi: Mumbai ki 26 kirana dukaanon par hui field experiment (AEA RCT Registry AEARCTR-0012890; summary: LBS Wheeler Institute) mein billing par 100 rupaye tak ka udhaar, discount aur kuch nahi ki tulna hui. Udhaar waale customers zyaada laute, discount se lagbhag farak nahi pada. Usse bana tareeka: chhoti limit, har bill par purana hisaab, lautaane ka din tay, samay par lautaane waalon ki limit badhaiye.\n\nWebsite: https://webeventuals.com\nWhatsApp: https://wa.me/918310377082\n\n#Shorts #DukaanTips #Udhaar",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/BwHFoAu96Bg/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/BwHFoAu96Bg/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/BwHFoAu96Bg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Web Eventuals",
+    "categoryId": "27",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "hi",
+    "localized": {
+     "title": "Udhar Dena Chahiye Ya Nahi? Bina limit ka udhaar #Shorts",
+     "description": "udhar dena chahiye ya nahi: Mumbai ki 26 kirana dukaanon par hui field experiment (AEA RCT Registry AEARCTR-0012890; summary: LBS Wheeler Institute) mein billing par 100 rupaye tak ka udhaar, discount aur kuch nahi ki tulna hui. Udhaar waale customers zyaada laute, discount se lagbhag farak nahi pada. Usse bana tareeka: chhoti limit, har bill par purana hisaab, lautaane ka din tay, samay par lautaane waalon ki limit badhaiye.\n\nWebsite: https://webeventuals.com\nWhatsApp: https://wa.me/918310377082\n\n#Shorts #DukaanTips #Udhaar"
+    },
+    "defaultAudioLanguage": "hi"
+   },
+   "status": {
+    "uploadStatus": "uploaded",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "selfDeclaredMadeForKids": false
+   },
+   "recordingDetails": {
+    "recordingDate": "2026-11-05T00:00:00Z"
+   }
+  }
+ },
+ {
+  "at": "2026-11-05T05:46:01.537064",
+  "platform": "youtube",
+  "method": "POST",
+  "url": "https://www.googleapis.com/upload/youtube/v3/thumbnails/set",
+  "status": 200,
+  "response": {
+   "kind": "youtube#thumbnailSetResponse",
+   "etag": "uag9uvu_z8DdU6zqmO7O7B6TUD8",
+   "items": [
+    {
+     "default": {
+      "url": "https://i.ytimg.com/vi/BwHFoAu96Bg/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/BwHFoAu96Bg/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/BwHFoAu96Bg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/BwHFoAu96Bg/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/BwHFoAu96Bg/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     },
+     "qhd": {
+      "url": "https://i.ytimg.com/vi/BwHFoAu96Bg/qhddefault.jpg",
+      "width": 2560,
+      "height": 1440
+     }
+    }
+   ]
+  }
+ }
+]
