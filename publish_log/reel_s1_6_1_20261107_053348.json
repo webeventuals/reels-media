@@ -1,0 +1,281 @@
+[
+ {
+  "at": "2026-11-07T05:31:14.563671",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media",
+  "status": 200,
+  "response": {
+   "id": "18101279735425006"
+  }
+ },
+ {
+  "at": "2026-11-07T05:31:34.775810",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18101279735425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18101279735425006"
+  }
+ },
+ {
+  "at": "2026-11-07T05:31:55.139945",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18101279735425006",
+  "status": 200,
+  "response": {
+   "status_code": "FINISHED",
+   "status": "FINISHED",
+   "id": "18101279735425006"
+  }
+ },
+ {
+  "at": "2026-11-07T05:32:04.518986",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media_publish",
+  "status": 200,
+  "response": {
+   "id": "18484285507117512"
+  }
+ },
+ {
+  "at": "2026-11-07T05:32:04.719841",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18484285507117512",
+  "status": 200,
+  "response": {
+   "permalink": "https://www.instagram.com/reel/Dfbb6QTlcXA/",
+   "id": "18484285507117512"
+  }
+ },
+ {
+  "at": "2026-11-07T05:32:06.205274",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads",
+  "status": 200,
+  "response": {
+   "id": "17942123604385935"
+  }
+ },
+ {
+  "at": "2026-11-07T05:32:26.523398",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17942123604385935",
+  "status": 200,
+  "response": {
+   "id": "17942123604385935",
+   "status": "IN_PROGRESS"
+  }
+ },
+ {
+  "at": "2026-11-07T05:32:46.865233",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17942123604385935",
+  "status": 200,
+  "response": {
+   "id": "17942123604385935",
+   "status": "IN_PROGRESS"
+  }
+ },
+ {
+  "at": "2026-11-07T05:33:07.445778",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17942123604385935",
+  "status": 200,
+  "response": {
+   "id": "17942123604385935",
+   "status": "FINISHED"
+  }
+ },
+ {
+  "at": "2026-11-07T05:33:13.154515",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads_publish",
+  "status": 200,
+  "response": {
+   "id": "18143670223715788"
+  }
+ },
+ {
+  "at": "2026-11-07T05:33:13.750593",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/18143670223715788",
+  "status": 200,
+  "response": {
+   "id": "18143670223715788",
+   "permalink": "https://www.threads.com/@web_eventuals/post/DfbcAvFTmvD"
+  }
+ },
+ {
+  "at": "2026-11-07T05:33:15.575957",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/video_reels",
+  "status": 200,
+  "response": {
+   "video_id": "999379999893756",
+   "upload_url": "https://rupload.facebook.com/video-upload/v27.0/999379999893756"
+  }
+ },
+ {
+  "at": "2026-11-07T05:33:18.591105",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://rupload.facebook.com/video-upload/v27.0/999379999893756",
+  "status": 200,
+  "response": {
+   "success": true,
+   "message": "Upload Successful. To check the status of the video, please follow the instructions listed at https://developers.facebook.com/docs/video-api/guides/reels-publishing#get-the-upload-status."
+  }
+ },
+ {
+  "at": "2026-11-07T05:33:39.585901",
+  "platform": "facebook",
+  "method": "GET",
+  "url": "https://graph.facebook.com/v21.0/999379999893756",
+  "status": 200,
+  "response": {
+   "status": {
+    "video_status": "upload_complete",
+    "uploading_phase": {
+     "status": "complete",
+     "bytes_transferred": 4659167
+    },
+    "processing_phase": {
+     "status": "not_started"
+    },
+    "publishing_phase": {
+     "status": "not_started"
+    },
+    "copyright_check_status": {
+     "status": "in_progress"
+    }
+   },
+   "id": "999379999893756"
+  }
+ },
+ {
+  "at": "2026-11-07T05:33:42.250568",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/video_reels",
+  "status": 200,
+  "response": {
+   "success": true,
+   "message": "Video is Processing. To check the status of the video, please follow the instructions listed at https://developers.facebook.com/docs/video-api/guides/reels-publishing#get-the-upload-status.",
+   "post_id": "1655093173297423"
+  }
+ },
+ {
+  "at": "2026-11-07T05:33:45.379247",
+  "platform": "youtube",
+  "method": "PUT",
+  "url": "https://www.googleapis.com/upload/youtube/v3/videos",
+  "status": 200,
+  "response": {
+   "kind": "youtube#video",
+   "etag": "tNZGrjwaD9rzO9xvDlWhPvMHg1U",
+   "id": "8CaffKrZgOc",
+   "snippet": {
+    "publishedAt": "2026-11-07T05:33:42Z",
+    "channelId": "UCB2uvZ-zeLryreR2msWBpxQ",
+    "title": "Instagram Se Business Kaise Badhaye: 7 दिन का Test #shorts",
+    "description": "instagram se business kaise badhaye: Instagram के head Adam Mosseri (Jan 2025) के अनुसार save और send सबसे बड़े संकेत हैं. Instagram Creators blog (Apr 2026) के अनुसार दूसरों की content दोबारा डालने वाले accounts recommendation से बाहर होते हैं. Reel में दुकान के लिए 7 दिन का test: fresh, original, काम की बात.\n\nWebsite: https://webeventuals.com\nWhatsApp: https://wa.me/918310377082\n\n#dukan #shopowner #smallbusiness",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/8CaffKrZgOc/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/8CaffKrZgOc/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/8CaffKrZgOc/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Web Eventuals",
+    "categoryId": "27",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "hi",
+    "localized": {
+     "title": "Instagram Se Business Kaise Badhaye: 7 दिन का Test #shorts",
+     "description": "instagram se business kaise badhaye: Instagram के head Adam Mosseri (Jan 2025) के अनुसार save और send सबसे बड़े संकेत हैं. Instagram Creators blog (Apr 2026) के अनुसार दूसरों की content दोबारा डालने वाले accounts recommendation से बाहर होते हैं. Reel में दुकान के लिए 7 दिन का test: fresh, original, काम की बात.\n\nWebsite: https://webeventuals.com\nWhatsApp: https://wa.me/918310377082\n\n#dukan #shopowner #smallbusiness"
+    },
+    "defaultAudioLanguage": "hi"
+   },
+   "status": {
+    "uploadStatus": "uploaded",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "selfDeclaredMadeForKids": false
+   },
+   "recordingDetails": {
+    "recordingDate": "2026-11-07T00:00:00Z"
+   }
+  }
+ },
+ {
+  "at": "2026-11-07T05:33:48.874279",
+  "platform": "youtube",
+  "method": "POST",
+  "url": "https://www.googleapis.com/upload/youtube/v3/thumbnails/set",
+  "status": 200,
+  "response": {
+   "kind": "youtube#thumbnailSetResponse",
+   "etag": "PHydBgYD-tB4Z_j9zS3C0Ra1p7Y",
+   "items": [
+    {
+     "default": {
+      "url": "https://i.ytimg.com/vi/8CaffKrZgOc/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/8CaffKrZgOc/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/8CaffKrZgOc/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/8CaffKrZgOc/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/8CaffKrZgOc/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     },
+     "qhd": {
+      "url": "https://i.ytimg.com/vi/8CaffKrZgOc/qhddefault.jpg",
+      "width": 2560,
+      "height": 1440
+     }
+    }
+   ]
+  }
+ }
+]
