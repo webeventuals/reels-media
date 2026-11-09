@@ -1,0 +1,294 @@
+[
+ {
+  "at": "2026-11-09T05:31:11.652555",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media",
+  "status": 200,
+  "response": {
+   "id": "18101492903425006"
+  }
+ },
+ {
+  "at": "2026-11-09T05:31:31.810229",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18101492903425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18101492903425006"
+  }
+ },
+ {
+  "at": "2026-11-09T05:31:51.954674",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18101492903425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18101492903425006"
+  }
+ },
+ {
+  "at": "2026-11-09T05:32:12.091593",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18101492903425006",
+  "status": 200,
+  "response": {
+   "status_code": "FINISHED",
+   "status": "FINISHED",
+   "id": "18101492903425006"
+  }
+ },
+ {
+  "at": "2026-11-09T05:32:21.149165",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media_publish",
+  "status": 200,
+  "response": {
+   "id": "18079268186459561"
+  }
+ },
+ {
+  "at": "2026-11-09T05:32:21.284016",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18079268186459561",
+  "status": 200,
+  "response": {
+   "permalink": "https://www.instagram.com/reel/Dfglfu4GVUO/",
+   "id": "18079268186459561"
+  }
+ },
+ {
+  "at": "2026-11-09T05:32:21.976233",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads",
+  "status": 200,
+  "response": {
+   "id": "17942450475385935"
+  }
+ },
+ {
+  "at": "2026-11-09T05:32:42.123027",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17942450475385935",
+  "status": 200,
+  "response": {
+   "id": "17942450475385935",
+   "status": "IN_PROGRESS"
+  }
+ },
+ {
+  "at": "2026-11-09T05:33:02.217863",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17942450475385935",
+  "status": 200,
+  "response": {
+   "id": "17942450475385935",
+   "status": "IN_PROGRESS"
+  }
+ },
+ {
+  "at": "2026-11-09T05:33:22.431855",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17942450475385935",
+  "status": 200,
+  "response": {
+   "id": "17942450475385935",
+   "status": "FINISHED"
+  }
+ },
+ {
+  "at": "2026-11-09T05:33:27.079308",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads_publish",
+  "status": 200,
+  "response": {
+   "id": "18147020026576478"
+  }
+ },
+ {
+  "at": "2026-11-09T05:33:27.223798",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/18147020026576478",
+  "status": 200,
+  "response": {
+   "id": "18147020026576478",
+   "permalink": "https://www.threads.com/@web_eventuals/post/DfgloJqPvQq"
+  }
+ },
+ {
+  "at": "2026-11-09T05:33:29.376187",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/video_reels",
+  "status": 200,
+  "response": {
+   "video_id": "1866723451180473",
+   "upload_url": "https://rupload.facebook.com/video-upload/v27.0/1866723451180473"
+  }
+ },
+ {
+  "at": "2026-11-09T05:33:32.540020",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://rupload.facebook.com/video-upload/v27.0/1866723451180473",
+  "status": 200,
+  "response": {
+   "success": true,
+   "message": "Upload Successful. To check the status of the video, please follow the instructions listed at https://developers.facebook.com/docs/video-api/guides/reels-publishing#get-the-upload-status."
+  }
+ },
+ {
+  "at": "2026-11-09T05:33:53.802850",
+  "platform": "facebook",
+  "method": "GET",
+  "url": "https://graph.facebook.com/v21.0/1866723451180473",
+  "status": 200,
+  "response": {
+   "status": {
+    "video_status": "upload_complete",
+    "uploading_phase": {
+     "status": "complete",
+     "bytes_transferred": 4006712
+    },
+    "processing_phase": {
+     "status": "not_started"
+    },
+    "publishing_phase": {
+     "status": "not_started"
+    },
+    "copyright_check_status": {
+     "status": "complete",
+     "matches_found": false
+    }
+   },
+   "id": "1866723451180473"
+  }
+ },
+ {
+  "at": "2026-11-09T05:33:57.476049",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/video_reels",
+  "status": 200,
+  "response": {
+   "success": true,
+   "message": "Video is Processing. To check the status of the video, please follow the instructions listed at https://developers.facebook.com/docs/video-api/guides/reels-publishing#get-the-upload-status.",
+   "post_id": "1657344019739005"
+  }
+ },
+ {
+  "at": "2026-11-09T05:33:59.542220",
+  "platform": "youtube",
+  "method": "PUT",
+  "url": "https://www.googleapis.com/upload/youtube/v3/videos",
+  "status": 200,
+  "response": {
+   "kind": "youtube#video",
+   "etag": "nSLGMsM-mRMfkoSul9iWhbyyCnc",
+   "id": "6FDD7hDrXVY",
+   "snippet": {
+    "publishedAt": "2026-11-09T05:33:57Z",
+    "channelId": "UCB2uvZ-zeLryreR2msWBpxQ",
+    "title": "\"बाद में आता हूँ\" का असली मतलब, वजह दाम नहीं #shorts",
+    "description": "customer psychology in hindi: Grant Thornton Bharat 2026 survey (1600+ Indian shoppers): आधे से ज़्यादा kirana पर पहले से कम निर्भर, 70% से ज़्यादा के लिए discount से ज़्यादा ज़रूरी सुविधा. Hemalatha & Najma 2013 (150+ urban Indian shoppers): दुकान चुनने में service और जल्दी जवाब का सबसे ज़्यादा असर.\n\nWebsite: https://webeventuals.com\nWhatsApp: https://wa.me/918310377082\n\n#dukan #shopowner #smallbusiness",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/6FDD7hDrXVY/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/6FDD7hDrXVY/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/6FDD7hDrXVY/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Web Eventuals",
+    "categoryId": "27",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "hi",
+    "localized": {
+     "title": "\"बाद में आता हूँ\" का असली मतलब, वजह दाम नहीं #shorts",
+     "description": "customer psychology in hindi: Grant Thornton Bharat 2026 survey (1600+ Indian shoppers): आधे से ज़्यादा kirana पर पहले से कम निर्भर, 70% से ज़्यादा के लिए discount से ज़्यादा ज़रूरी सुविधा. Hemalatha & Najma 2013 (150+ urban Indian shoppers): दुकान चुनने में service और जल्दी जवाब का सबसे ज़्यादा असर.\n\nWebsite: https://webeventuals.com\nWhatsApp: https://wa.me/918310377082\n\n#dukan #shopowner #smallbusiness"
+    },
+    "defaultAudioLanguage": "hi"
+   },
+   "status": {
+    "uploadStatus": "uploaded",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "selfDeclaredMadeForKids": false
+   },
+   "recordingDetails": {
+    "recordingDate": "2026-11-09T00:00:00Z"
+   }
+  }
+ },
+ {
+  "at": "2026-11-09T05:34:02.563762",
+  "platform": "youtube",
+  "method": "POST",
+  "url": "https://www.googleapis.com/upload/youtube/v3/thumbnails/set",
+  "status": 200,
+  "response": {
+   "kind": "youtube#thumbnailSetResponse",
+   "etag": "joz_PrUs9-uHDBJh4zSJkJuPFx4",
+   "items": [
+    {
+     "default": {
+      "url": "https://i.ytimg.com/vi/6FDD7hDrXVY/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/6FDD7hDrXVY/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/6FDD7hDrXVY/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/6FDD7hDrXVY/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/6FDD7hDrXVY/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     },
+     "qhd": {
+      "url": "https://i.ytimg.com/vi/6FDD7hDrXVY/qhddefault.jpg",
+      "width": 2560,
+      "height": 1440
+     }
+    }
+   ]
+  }
+ }
+]
