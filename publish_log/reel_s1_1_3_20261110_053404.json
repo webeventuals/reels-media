@@ -1,0 +1,294 @@
+[
+ {
+  "at": "2026-11-10T05:31:11.551911",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media",
+  "status": 200,
+  "response": {
+   "id": "18101592902425006"
+  }
+ },
+ {
+  "at": "2026-11-10T05:31:31.691136",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18101592902425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18101592902425006"
+  }
+ },
+ {
+  "at": "2026-11-10T05:31:52.051930",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18101592902425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18101592902425006"
+  }
+ },
+ {
+  "at": "2026-11-10T05:32:12.181308",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18101592902425006",
+  "status": 200,
+  "response": {
+   "status_code": "FINISHED",
+   "status": "FINISHED",
+   "id": "18101592902425006"
+  }
+ },
+ {
+  "at": "2026-11-10T05:32:22.239874",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media_publish",
+  "status": 200,
+  "response": {
+   "id": "17980063962170145"
+  }
+ },
+ {
+  "at": "2026-11-10T05:32:22.414999",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/17980063962170145",
+  "status": 200,
+  "response": {
+   "permalink": "https://www.instagram.com/reel/DfjKSbEjKAd/",
+   "id": "17980063962170145"
+  }
+ },
+ {
+  "at": "2026-11-10T05:32:23.626302",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads",
+  "status": 200,
+  "response": {
+   "id": "17942606424385935"
+  }
+ },
+ {
+  "at": "2026-11-10T05:32:43.971679",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17942606424385935",
+  "status": 200,
+  "response": {
+   "id": "17942606424385935",
+   "status": "IN_PROGRESS"
+  }
+ },
+ {
+  "at": "2026-11-10T05:33:04.277641",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17942606424385935",
+  "status": 200,
+  "response": {
+   "id": "17942606424385935",
+   "status": "IN_PROGRESS"
+  }
+ },
+ {
+  "at": "2026-11-10T05:33:24.607312",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17942606424385935",
+  "status": 200,
+  "response": {
+   "id": "17942606424385935",
+   "status": "FINISHED"
+  }
+ },
+ {
+  "at": "2026-11-10T05:33:30.789455",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads_publish",
+  "status": 200,
+  "response": {
+   "id": "18140340301626064"
+  }
+ },
+ {
+  "at": "2026-11-10T05:33:31.004131",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/18140340301626064",
+  "status": 200,
+  "response": {
+   "id": "18140340301626064",
+   "permalink": "https://www.threads.com/@web_eventuals/post/DfjKbQ3OvZk"
+  }
+ },
+ {
+  "at": "2026-11-10T05:33:32.489789",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/video_reels",
+  "status": 200,
+  "response": {
+   "video_id": "3852944144857977",
+   "upload_url": "https://rupload.facebook.com/video-upload/v27.0/3852944144857977"
+  }
+ },
+ {
+  "at": "2026-11-10T05:33:35.535228",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://rupload.facebook.com/video-upload/v27.0/3852944144857977",
+  "status": 200,
+  "response": {
+   "success": true,
+   "message": "Upload Successful. To check the status of the video, please follow the instructions listed at https://developers.facebook.com/docs/video-api/guides/reels-publishing#get-the-upload-status."
+  }
+ },
+ {
+  "at": "2026-11-10T05:33:56.714427",
+  "platform": "facebook",
+  "method": "GET",
+  "url": "https://graph.facebook.com/v21.0/3852944144857977",
+  "status": 200,
+  "response": {
+   "status": {
+    "video_status": "upload_complete",
+    "uploading_phase": {
+     "status": "complete",
+     "bytes_transferred": 3507775
+    },
+    "processing_phase": {
+     "status": "not_started"
+    },
+    "publishing_phase": {
+     "status": "not_started"
+    },
+    "copyright_check_status": {
+     "status": "complete",
+     "matches_found": false
+    }
+   },
+   "id": "3852944144857977"
+  }
+ },
+ {
+  "at": "2026-11-10T05:33:59.791058",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/video_reels",
+  "status": 200,
+  "response": {
+   "success": true,
+   "message": "Video is Processing. To check the status of the video, please follow the instructions listed at https://developers.facebook.com/docs/video-api/guides/reels-publishing#get-the-upload-status.",
+   "post_id": "1658505022956238"
+  }
+ },
+ {
+  "at": "2026-11-10T05:34:01.788064",
+  "platform": "youtube",
+  "method": "PUT",
+  "url": "https://www.googleapis.com/upload/youtube/v3/videos",
+  "status": 200,
+  "response": {
+   "kind": "youtube#video",
+   "etag": "w4Nd13DeQn1svQYs88Y3jbxEpUw",
+   "id": "Ou5Ykgv5h8U",
+   "snippet": {
+    "publishedAt": "2026-11-10T05:34:00Z",
+    "channelId": "UCB2uvZ-zeLryreR2msWBpxQ",
+    "title": "उधार में आधे दुकानदारों की ग़लती #shorts",
+    "description": "business me udhar: Sungu, Alhorr & Srivastava (London Business School), भारत की दुकानों पर research: एक महीने में 12% customers ने उधार लिया पर 30%+ कमाई उन्हीं से; उधार लेने वाले 78% customers सिर्फ़ उसी एक दुकान से सामान लेते थे; क़रीब 200 दुकानदारों में सिर्फ़ आधे लिखा हुआ हिसाब रखते थे.\n\nWebsite: https://webeventuals.com\nWhatsApp: https://wa.me/918310377082\n\n#dukan #shopowner #smallbusiness",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Ou5Ykgv5h8U/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Ou5Ykgv5h8U/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Ou5Ykgv5h8U/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Web Eventuals",
+    "categoryId": "27",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "hi",
+    "localized": {
+     "title": "उधार में आधे दुकानदारों की ग़लती #shorts",
+     "description": "business me udhar: Sungu, Alhorr & Srivastava (London Business School), भारत की दुकानों पर research: एक महीने में 12% customers ने उधार लिया पर 30%+ कमाई उन्हीं से; उधार लेने वाले 78% customers सिर्फ़ उसी एक दुकान से सामान लेते थे; क़रीब 200 दुकानदारों में सिर्फ़ आधे लिखा हुआ हिसाब रखते थे.\n\nWebsite: https://webeventuals.com\nWhatsApp: https://wa.me/918310377082\n\n#dukan #shopowner #smallbusiness"
+    },
+    "defaultAudioLanguage": "hi"
+   },
+   "status": {
+    "uploadStatus": "uploaded",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "selfDeclaredMadeForKids": false
+   },
+   "recordingDetails": {
+    "recordingDate": "2026-11-10T00:00:00Z"
+   }
+  }
+ },
+ {
+  "at": "2026-11-10T05:34:04.664417",
+  "platform": "youtube",
+  "method": "POST",
+  "url": "https://www.googleapis.com/upload/youtube/v3/thumbnails/set",
+  "status": 200,
+  "response": {
+   "kind": "youtube#thumbnailSetResponse",
+   "etag": "0U-RiZ8N2YTlAOAd-PS1OnIGz1M",
+   "items": [
+    {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Ou5Ykgv5h8U/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Ou5Ykgv5h8U/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Ou5Ykgv5h8U/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/Ou5Ykgv5h8U/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/Ou5Ykgv5h8U/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     },
+     "qhd": {
+      "url": "https://i.ytimg.com/vi/Ou5Ykgv5h8U/qhddefault.jpg",
+      "width": 2560,
+      "height": 1440
+     }
+    }
+   ]
+  }
+ }
+]
