@@ -1,0 +1,317 @@
+[
+ {
+  "at": "2026-11-14T05:31:10.625191",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media",
+  "status": 200,
+  "response": {
+   "id": "18102056012425006"
+  }
+ },
+ {
+  "at": "2026-11-14T05:31:30.769563",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18102056012425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18102056012425006"
+  }
+ },
+ {
+  "at": "2026-11-14T05:31:51.015161",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18102056012425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18102056012425006"
+  }
+ },
+ {
+  "at": "2026-11-14T05:32:11.308046",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18102056012425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18102056012425006"
+  }
+ },
+ {
+  "at": "2026-11-14T05:32:31.410735",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18102056012425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18102056012425006"
+  }
+ },
+ {
+  "at": "2026-11-14T05:32:51.519946",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18102056012425006",
+  "status": 200,
+  "response": {
+   "status_code": "FINISHED",
+   "status": "FINISHED",
+   "id": "18102056012425006"
+  }
+ },
+ {
+  "at": "2026-11-14T05:32:57.663323",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media_publish",
+  "status": 200,
+  "response": {
+   "id": "18184206421376358"
+  }
+ },
+ {
+  "at": "2026-11-14T05:32:57.809518",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18184206421376358",
+  "status": 200,
+  "response": {
+   "permalink": "https://www.instagram.com/reel/DftdiakmQ-T/",
+   "id": "18184206421376358"
+  }
+ },
+ {
+  "at": "2026-11-14T05:32:58.576525",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads",
+  "status": 200,
+  "response": {
+   "id": "17943292893385935"
+  }
+ },
+ {
+  "at": "2026-11-14T05:33:18.871558",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17943292893385935",
+  "status": 200,
+  "response": {
+   "id": "17943292893385935",
+   "status": "IN_PROGRESS"
+  }
+ },
+ {
+  "at": "2026-11-14T05:33:39.147178",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17943292893385935",
+  "status": 200,
+  "response": {
+   "id": "17943292893385935",
+   "status": "IN_PROGRESS"
+  }
+ },
+ {
+  "at": "2026-11-14T05:33:59.471094",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17943292893385935",
+  "status": 200,
+  "response": {
+   "id": "17943292893385935",
+   "status": "FINISHED"
+  }
+ },
+ {
+  "at": "2026-11-14T05:34:03.320868",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads_publish",
+  "status": 200,
+  "response": {
+   "id": "18121808639003035"
+  }
+ },
+ {
+  "at": "2026-11-14T05:34:03.784367",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/18121808639003035",
+  "status": 200,
+  "response": {
+   "id": "18121808639003035",
+   "permalink": "https://www.threads.com/@web_eventuals/post/Dftdq9ipE3o"
+  }
+ },
+ {
+  "at": "2026-11-14T05:34:05.219961",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/video_reels",
+  "status": 200,
+  "response": {
+   "video_id": "1853735119294732",
+   "upload_url": "https://rupload.facebook.com/video-upload/v27.0/1853735119294732"
+  }
+ },
+ {
+  "at": "2026-11-14T05:34:08.216834",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://rupload.facebook.com/video-upload/v27.0/1853735119294732",
+  "status": 200,
+  "response": {
+   "success": true,
+   "message": "Upload Successful. To check the status of the video, please follow the instructions listed at https://developers.facebook.com/docs/video-api/guides/reels-publishing#get-the-upload-status."
+  }
+ },
+ {
+  "at": "2026-11-14T05:34:29.348076",
+  "platform": "facebook",
+  "method": "GET",
+  "url": "https://graph.facebook.com/v21.0/1853735119294732",
+  "status": 200,
+  "response": {
+   "status": {
+    "video_status": "upload_complete",
+    "uploading_phase": {
+     "status": "complete",
+     "bytes_transferred": 3731119
+    },
+    "processing_phase": {
+     "status": "not_started"
+    },
+    "publishing_phase": {
+     "status": "not_started"
+    },
+    "copyright_check_status": {
+     "status": "in_progress"
+    }
+   },
+   "id": "1853735119294732"
+  }
+ },
+ {
+  "at": "2026-11-14T05:34:32.650702",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/video_reels",
+  "status": 200,
+  "response": {
+   "success": true,
+   "message": "Video is Processing. To check the status of the video, please follow the instructions listed at https://developers.facebook.com/docs/video-api/guides/reels-publishing#get-the-upload-status.",
+   "post_id": "1663333722473368"
+  }
+ },
+ {
+  "at": "2026-11-14T05:34:34.946680",
+  "platform": "youtube",
+  "method": "PUT",
+  "url": "https://www.googleapis.com/upload/youtube/v3/videos",
+  "status": 200,
+  "response": {
+   "kind": "youtube#video",
+   "etag": "5yWVj65rGkaucdR9ClBYkRyTD6E",
+   "id": "RnoliuEjriQ",
+   "snippet": {
+    "publishedAt": "2026-11-14T05:34:33Z",
+    "channelId": "UCB2uvZ-zeLryreR2msWBpxQ",
+    "title": "Mall सस्ता, फिर भी customer आपके पास क्यों? | customer loyalty hindi #shorts",
+    "description": "customer loyalty hindi: Kirana customer loyalty की 3 research वाली बातें: satisfaction, कमी के दिन regular पहले, और दुकान से लगाव. Sources: Prasad & Aryasri 2008, Alex, Hussain & Kirmani 2023.\n\nWebsite: https://webeventuals.com\nWhatsApp: https://wa.me/918310377082\n\n#kiranastore #customerloyalty #shorts",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/RnoliuEjriQ/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/RnoliuEjriQ/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/RnoliuEjriQ/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Web Eventuals",
+    "categoryId": "27",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "hi",
+    "localized": {
+     "title": "Mall सस्ता, फिर भी customer आपके पास क्यों? | customer loyalty hindi #shorts",
+     "description": "customer loyalty hindi: Kirana customer loyalty की 3 research वाली बातें: satisfaction, कमी के दिन regular पहले, और दुकान से लगाव. Sources: Prasad & Aryasri 2008, Alex, Hussain & Kirmani 2023.\n\nWebsite: https://webeventuals.com\nWhatsApp: https://wa.me/918310377082\n\n#kiranastore #customerloyalty #shorts"
+    },
+    "defaultAudioLanguage": "hi"
+   },
+   "status": {
+    "uploadStatus": "uploaded",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "selfDeclaredMadeForKids": false
+   },
+   "recordingDetails": {
+    "recordingDate": "2026-11-14T00:00:00Z"
+   }
+  }
+ },
+ {
+  "at": "2026-11-14T05:34:38.601910",
+  "platform": "youtube",
+  "method": "POST",
+  "url": "https://www.googleapis.com/upload/youtube/v3/thumbnails/set",
+  "status": 200,
+  "response": {
+   "kind": "youtube#thumbnailSetResponse",
+   "etag": "vqfN5mvtbtkMJgoapbk1CS1zOQI",
+   "items": [
+    {
+     "default": {
+      "url": "https://i.ytimg.com/vi/RnoliuEjriQ/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/RnoliuEjriQ/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/RnoliuEjriQ/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/RnoliuEjriQ/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/RnoliuEjriQ/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     },
+     "qhd": {
+      "url": "https://i.ytimg.com/vi/RnoliuEjriQ/qhddefault.jpg",
+      "width": 2560,
+      "height": 1440
+     }
+    }
+   ]
+  }
+ }
+]
