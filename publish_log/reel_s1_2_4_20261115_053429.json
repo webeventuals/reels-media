@@ -1,0 +1,306 @@
+[
+ {
+  "at": "2026-11-15T05:31:09.106065",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media",
+  "status": 200,
+  "response": {
+   "id": "18102172541425006"
+  }
+ },
+ {
+  "at": "2026-11-15T05:31:29.409279",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18102172541425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18102172541425006"
+  }
+ },
+ {
+  "at": "2026-11-15T05:31:49.661341",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18102172541425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18102172541425006"
+  }
+ },
+ {
+  "at": "2026-11-15T05:32:09.921831",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18102172541425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18102172541425006"
+  }
+ },
+ {
+  "at": "2026-11-15T05:32:30.157436",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18102172541425006",
+  "status": 200,
+  "response": {
+   "status_code": "FINISHED",
+   "status": "FINISHED",
+   "id": "18102172541425006"
+  }
+ },
+ {
+  "at": "2026-11-15T05:32:37.752524",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media_publish",
+  "status": 200,
+  "response": {
+   "id": "17918166735541982"
+  }
+ },
+ {
+  "at": "2026-11-15T05:32:38.012723",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/17918166735541982",
+  "status": 200,
+  "response": {
+   "permalink": "https://www.instagram.com/reel/DfwCQfFk5tM/",
+   "id": "17918166735541982"
+  }
+ },
+ {
+  "at": "2026-11-15T05:32:38.949765",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads",
+  "status": 200,
+  "response": {
+   "id": "17943483591385935"
+  }
+ },
+ {
+  "at": "2026-11-15T05:32:59.394895",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17943483591385935",
+  "status": 200,
+  "response": {
+   "id": "17943483591385935",
+   "status": "IN_PROGRESS"
+  }
+ },
+ {
+  "at": "2026-11-15T05:33:19.687642",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17943483591385935",
+  "status": 200,
+  "response": {
+   "id": "17943483591385935",
+   "status": "IN_PROGRESS"
+  }
+ },
+ {
+  "at": "2026-11-15T05:33:40.145433",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17943483591385935",
+  "status": 200,
+  "response": {
+   "id": "17943483591385935",
+   "status": "FINISHED"
+  }
+ },
+ {
+  "at": "2026-11-15T05:33:45.274320",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads_publish",
+  "status": 200,
+  "response": {
+   "id": "18157927687522653"
+  }
+ },
+ {
+  "at": "2026-11-15T05:33:45.560932",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/18157927687522653",
+  "status": 200,
+  "response": {
+   "id": "18157927687522653",
+   "permalink": "https://www.threads.com/@web_eventuals/post/DfwCbpXoPq3"
+  }
+ },
+ {
+  "at": "2026-11-15T05:33:48.744283",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/video_reels",
+  "status": 200,
+  "response": {
+   "video_id": "1033068416480286",
+   "upload_url": "https://rupload.facebook.com/video-upload/v27.0/1033068416480286"
+  }
+ },
+ {
+  "at": "2026-11-15T05:33:56.576371",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://rupload.facebook.com/video-upload/v27.0/1033068416480286",
+  "status": 200,
+  "response": {
+   "success": true,
+   "message": "Upload Successful. To check the status of the video, please follow the instructions listed at https://developers.facebook.com/docs/video-api/guides/reels-publishing#get-the-upload-status."
+  }
+ },
+ {
+  "at": "2026-11-15T05:34:17.463325",
+  "platform": "facebook",
+  "method": "GET",
+  "url": "https://graph.facebook.com/v21.0/1033068416480286",
+  "status": 200,
+  "response": {
+   "status": {
+    "video_status": "upload_complete",
+    "uploading_phase": {
+     "status": "complete",
+     "bytes_transferred": 4375958
+    },
+    "processing_phase": {
+     "status": "not_started"
+    },
+    "publishing_phase": {
+     "status": "not_started"
+    },
+    "copyright_check_status": {
+     "status": "complete",
+     "matches_found": false
+    }
+   },
+   "id": "1033068416480286"
+  }
+ },
+ {
+  "at": "2026-11-15T05:34:21.055680",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/video_reels",
+  "status": 200,
+  "response": {
+   "success": true,
+   "message": "Video is Processing. To check the status of the video, please follow the instructions listed at https://developers.facebook.com/docs/video-api/guides/reels-publishing#get-the-upload-status.",
+   "post_id": "1664553042351436"
+  }
+ },
+ {
+  "at": "2026-11-15T05:34:23.006364",
+  "platform": "youtube",
+  "method": "PUT",
+  "url": "https://www.googleapis.com/upload/youtube/v3/videos",
+  "status": 200,
+  "response": {
+   "kind": "youtube#video",
+   "etag": "27xViu1QxoJEQQCWQxkmz3aTD7Q",
+   "id": "B-KAyu-MLlc",
+   "snippet": {
+    "publishedAt": "2026-11-15T05:34:21Z",
+    "channelId": "UCB2uvZ-zeLryreR2msWBpxQ",
+    "title": "Sasta Dikhna Ya Mehenga: ₹5 कम दाम का शक #shorts",
+    "description": "sasta dikhna ya mehenga: IIM Ahmedabad की journal Vikalpa में छपी Indian research ने चेताया कि बहुत कम दाम से customer के मन में घटिया माल की छवि बनती है. Nielsen के grocery survey में 91% भारतीयों ने कहा कि दुकान चुनते समय उन्हें पैसे की पूरी क़ीमत चाहिए, सबसे कम दाम नहीं. Reel में हल: दाम को माल के सबूत से जोड़िए.\n\nWebsite: https://webeventuals.com\nWhatsApp: https://wa.me/918310377082\n\n#dukan #shopowner #smallbusiness",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/B-KAyu-MLlc/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/B-KAyu-MLlc/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/B-KAyu-MLlc/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Web Eventuals",
+    "categoryId": "27",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "hi",
+    "localized": {
+     "title": "Sasta Dikhna Ya Mehenga: ₹5 कम दाम का शक #shorts",
+     "description": "sasta dikhna ya mehenga: IIM Ahmedabad की journal Vikalpa में छपी Indian research ने चेताया कि बहुत कम दाम से customer के मन में घटिया माल की छवि बनती है. Nielsen के grocery survey में 91% भारतीयों ने कहा कि दुकान चुनते समय उन्हें पैसे की पूरी क़ीमत चाहिए, सबसे कम दाम नहीं. Reel में हल: दाम को माल के सबूत से जोड़िए.\n\nWebsite: https://webeventuals.com\nWhatsApp: https://wa.me/918310377082\n\n#dukan #shopowner #smallbusiness"
+    },
+    "defaultAudioLanguage": "hi"
+   },
+   "status": {
+    "uploadStatus": "uploaded",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "selfDeclaredMadeForKids": false
+   },
+   "recordingDetails": {
+    "recordingDate": "2026-11-15T00:00:00Z"
+   }
+  }
+ },
+ {
+  "at": "2026-11-15T05:34:29.111451",
+  "platform": "youtube",
+  "method": "POST",
+  "url": "https://www.googleapis.com/upload/youtube/v3/thumbnails/set",
+  "status": 200,
+  "response": {
+   "kind": "youtube#thumbnailSetResponse",
+   "etag": "3pEeL43F9jtAZHPxWdnmiHLFuvY",
+   "items": [
+    {
+     "default": {
+      "url": "https://i.ytimg.com/vi/B-KAyu-MLlc/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/B-KAyu-MLlc/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/B-KAyu-MLlc/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/B-KAyu-MLlc/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/B-KAyu-MLlc/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     },
+     "qhd": {
+      "url": "https://i.ytimg.com/vi/B-KAyu-MLlc/qhddefault.jpg",
+      "width": 2560,
+      "height": 1440
+     }
+    }
+   ]
+  }
+ }
+]
