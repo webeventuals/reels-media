@@ -1,0 +1,551 @@
+[
+ {
+  "at": "2026-11-16T05:31:15.906668",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media",
+  "status": 200,
+  "response": {
+   "id": "18102292394425006"
+  }
+ },
+ {
+  "at": "2026-11-16T05:31:36.064096",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18102292394425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18102292394425006"
+  }
+ },
+ {
+  "at": "2026-11-16T05:31:56.130650",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18102292394425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18102292394425006"
+  }
+ },
+ {
+  "at": "2026-11-16T05:32:16.245089",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18102292394425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18102292394425006"
+  }
+ },
+ {
+  "at": "2026-11-16T05:32:36.355979",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18102292394425006",
+  "status": 200,
+  "response": {
+   "status_code": "FINISHED",
+   "status": "FINISHED",
+   "id": "18102292394425006"
+  }
+ },
+ {
+  "at": "2026-11-16T05:32:44.803906",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media_publish",
+  "status": 200,
+  "response": {
+   "id": "18030616667880878"
+  }
+ },
+ {
+  "at": "2026-11-16T05:32:44.902014",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18030616667880878",
+  "status": 200,
+  "response": {
+   "permalink": "https://www.instagram.com/reel/DfynEIhF3Ff/",
+   "id": "18030616667880878"
+  }
+ },
+ {
+  "at": "2026-11-16T05:32:45.683205",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads",
+  "status": 200,
+  "response": {
+   "id": "17943665499385935"
+  }
+ },
+ {
+  "at": "2026-11-16T05:33:06.021344",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17943665499385935",
+  "status": 200,
+  "response": {
+   "id": "17943665499385935",
+   "status": "IN_PROGRESS"
+  }
+ },
+ {
+  "at": "2026-11-16T05:33:26.363521",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17943665499385935",
+  "status": 200,
+  "response": {
+   "id": "17943665499385935",
+   "status": "IN_PROGRESS"
+  }
+ },
+ {
+  "at": "2026-11-16T05:33:46.741583",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17943665499385935",
+  "status": 200,
+  "response": {
+   "id": "17943665499385935",
+   "status": "IN_PROGRESS"
+  }
+ },
+ {
+  "at": "2026-11-16T05:34:07.049163",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17943665499385935",
+  "status": 200,
+  "response": {
+   "id": "17943665499385935",
+   "status": "FINISHED"
+  }
+ },
+ {
+  "at": "2026-11-16T05:34:12.848486",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads_publish",
+  "status": 200,
+  "response": {
+   "id": "17990844395882627"
+  }
+ },
+ {
+  "at": "2026-11-16T05:34:13.168288",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17990844395882627",
+  "status": 200,
+  "response": {
+   "id": "17990844395882627",
+   "permalink": "https://www.threads.com/@web_eventuals/post/DfynPLJOBYI"
+  }
+ },
+ {
+  "at": "2026-11-16T05:34:14.691374",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/video_reels",
+  "status": 200,
+  "response": {
+   "video_id": "1145287957864002",
+   "upload_url": "https://rupload.facebook.com/video-upload/v27.0/1145287957864002"
+  }
+ },
+ {
+  "at": "2026-11-16T05:34:17.901469",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://rupload.facebook.com/video-upload/v27.0/1145287957864002",
+  "status": 200,
+  "response": {
+   "success": true,
+   "message": "Upload Successful. To check the status of the video, please follow the instructions listed at https://developers.facebook.com/docs/video-api/guides/reels-publishing#get-the-upload-status."
+  }
+ },
+ {
+  "at": "2026-11-16T05:34:38.614469",
+  "platform": "facebook",
+  "method": "GET",
+  "url": "https://graph.facebook.com/v21.0/1145287957864002",
+  "status": 200,
+  "response": {
+   "status": {
+    "video_status": "upload_complete",
+    "uploading_phase": {
+     "status": "complete",
+     "bytes_transferred": 4481483
+    },
+    "processing_phase": {
+     "status": "not_started"
+    },
+    "publishing_phase": {
+     "status": "not_started"
+    },
+    "copyright_check_status": {
+     "status": "complete",
+     "matches_found": false
+    }
+   },
+   "id": "1145287957864002"
+  }
+ },
+ {
+  "at": "2026-11-16T05:34:41.861437",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/video_reels",
+  "status": 200,
+  "response": {
+   "success": true,
+   "message": "Video is Processing. To check the status of the video, please follow the instructions listed at https://developers.facebook.com/docs/video-api/guides/reels-publishing#get-the-upload-status.",
+   "post_id": "1665864305553643"
+  }
+ },
+ {
+  "at": "2026-11-16T05:34:43.257145",
+  "platform": "youtube",
+  "method": "PUT",
+  "url": "https://www.googleapis.com/upload/youtube/v3/videos",
+  "status": 200,
+  "response": {
+   "kind": "youtube#video",
+   "etag": "piP9YVfr_VgkmDCT0qjV31PNv28",
+   "id": "E3UIlB_PIkY",
+   "snippet": {
+    "publishedAt": "2026-11-16T05:34:42Z",
+    "channelId": "UCB2uvZ-zeLryreR2msWBpxQ",
+    "title": "Business Me Paisa Kaha Jata Hai: गल्ला भरा, हाथ ख़ाली #shorts",
+    "description": "business me paisa kaha jata hai: MicroSave Consulting की 2024 की research में दिखा कि जो छोटे कारोबारी digital नहीं थे, वो हिसाब ज़्यादातर याद के भरोसे रखते थे. 100x.VC के अंदाज़े में kirana की 30% तक पूँजी न बिकने वाले माल में फँसी रहती है. MicroSave और Sa-Dhan की research में 55% छोटी कारोबारी महिलाओं ने कहा कि अलग हिसाब की ज़रूरत ही नहीं. Reel में हल: हर रविवार तीन number.\n\nWebsite: https://webeventuals.com\nWhatsApp: https://wa.me/918310377082\n\n#dukan #shopowner #smallbusiness #CashFlow #DukanKaHisab #Kirana #Shorts",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/E3UIlB_PIkY/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/E3UIlB_PIkY/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/E3UIlB_PIkY/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Web Eventuals",
+    "tags": [
+     "business me paisa kaha jata hai",
+     "cash flow",
+     "dukan ka hisab",
+     "dukan ka munafa",
+     "dukan kaise chalaye",
+     "dukan tips",
+     "hinglish",
+     "shop owner",
+     "small business india",
+     "web eventuals"
+    ],
+    "categoryId": "27",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "hi",
+    "localized": {
+     "title": "Business Me Paisa Kaha Jata Hai: गल्ला भरा, हाथ ख़ाली #shorts",
+     "description": "business me paisa kaha jata hai: MicroSave Consulting की 2024 की research में दिखा कि जो छोटे कारोबारी digital नहीं थे, वो हिसाब ज़्यादातर याद के भरोसे रखते थे. 100x.VC के अंदाज़े में kirana की 30% तक पूँजी न बिकने वाले माल में फँसी रहती है. MicroSave और Sa-Dhan की research में 55% छोटी कारोबारी महिलाओं ने कहा कि अलग हिसाब की ज़रूरत ही नहीं. Reel में हल: हर रविवार तीन number.\n\nWebsite: https://webeventuals.com\nWhatsApp: https://wa.me/918310377082\n\n#dukan #shopowner #smallbusiness #CashFlow #DukanKaHisab #Kirana #Shorts"
+    },
+    "defaultAudioLanguage": "hi"
+   },
+   "status": {
+    "uploadStatus": "uploaded",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "selfDeclaredMadeForKids": false
+   },
+   "recordingDetails": {
+    "recordingDate": "2026-11-16T00:00:00Z"
+   }
+  }
+ },
+ {
+  "at": "2026-11-16T05:34:45.285145",
+  "platform": "youtube",
+  "method": "POST",
+  "url": "https://www.googleapis.com/upload/youtube/v3/thumbnails/set",
+  "status": 200,
+  "response": {
+   "kind": "youtube#thumbnailSetResponse",
+   "etag": "VPM7hbdbr3uNl6sBhEanLYHaOEE",
+   "items": [
+    {
+     "default": {
+      "url": "https://i.ytimg.com/vi/E3UIlB_PIkY/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/E3UIlB_PIkY/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/E3UIlB_PIkY/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/E3UIlB_PIkY/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/E3UIlB_PIkY/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     },
+     "qhd": {
+      "url": "https://i.ytimg.com/vi/E3UIlB_PIkY/qhddefault.jpg",
+      "width": 2560,
+      "height": 1440
+     }
+    }
+   ]
+  }
+ },
+ {
+  "at": "2026-11-16T05:34:45.408444",
+  "platform": "youtube",
+  "method": "GET",
+  "url": "https://www.googleapis.com/youtube/v3/playlists",
+  "status": 200,
+  "response": {
+   "kind": "youtube#playlistListResponse",
+   "etag": "SouBLPPAHGiO_OQLEB-36zLmAYQ",
+   "pageInfo": {
+    "totalResults": 5,
+    "resultsPerPage": 50
+   },
+   "items": [
+    {
+     "kind": "youtube#playlist",
+     "etag": "6OL1ZK8SU1D-YXCGg059FHgHCGc",
+     "id": "PLLkTwaCCtYEw",
+     "snippet": {
+      "publishedAt": "2026-11-10T21:40:50.299722Z",
+      "channelId": "UCB2uvZ-zeLryreR2msWBpxQ",
+      "title": "Web Eventuals Software Demos",
+      "description": "Real software built by Web Eventuals, shown working end to end. Custom AI tools, automation and business apps, each demo a live product doing real work. New demos are added as we ship them.\n\nSee every app we’ve built: https://webeventuals.com/what-we-build/\nWant a tool like this built for your business? Talk to Web Eventuals: https://webeventuals.com/contact/",
+      "thumbnails": {
+       "default": {
+        "url": "https://i.ytimg.com/vi/jL6S12ljoS4/default.jpg",
+        "width": 120,
+        "height": 90
+       },
+       "medium": {
+        "url": "https://i.ytimg.com/vi/jL6S12ljoS4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+       },
+       "high": {
+        "url": "https://i.ytimg.com/vi/jL6S12ljoS4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+       },
+       "standard": {
+        "url": "https://i.ytimg.com/vi/jL6S12ljoS4/sddefault.jpg",
+        "width": 640,
+        "height": 480
+       },
+       "maxres": {
+        "url": "https://i.ytimg.com/vi/jL6S12ljoS4/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+       }
+      },
+      "channelTitle": "Web Eventuals",
+      "defaultLanguage": "en",
+      "localized": {
+       "title": "Web Eventuals Software Demos",
+       "description": "Real software built by Web Eventuals, shown working end to end. Custom AI tools, automation and business apps, each demo a live product doing real work. New demos are added as we ship them.\n\nSee every app we’ve built: https://webeventuals.com/what-we-build/\nWant a tool like this built for your business? Talk to Web Eventuals: https://webeventuals.com/contact/"
+      }
+     }
+    },
+    {
+     "kind": "youtube#playlist",
+     "etag": "CQQZ_ZB4e7O632aif2AzytfIHXc",
+     "id": "PLAjchdXH3H5k",
+     "snippet": {
+      "publishedAt": "2026-10-22T20:15:33.754086Z",
+      "channelId": "UCB2uvZ-zeLryreR2msWBpxQ",
+      "title": "Website Tips for Business Owners (Hinglish)",
+      "description": "Short Hinglish website tips for business owners: social proof, enquiry forms, template vs custom website, local SEO, Google Business Profile aur WhatsApp automation. Har Short mein ek problem aur uska simple fix.\n\nWebsite: https://webeventuals.com",
+      "thumbnails": {
+       "default": {
+        "url": "https://i.ytimg.com/vi/UOojqzp2MBU/default.jpg",
+        "width": 120,
+        "height": 90
+       },
+       "medium": {
+        "url": "https://i.ytimg.com/vi/UOojqzp2MBU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+       },
+       "high": {
+        "url": "https://i.ytimg.com/vi/UOojqzp2MBU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+       },
+       "standard": {
+        "url": "https://i.ytimg.com/vi/UOojqzp2MBU/sddefault.jpg",
+        "width": 640,
+        "height": 480
+       },
+       "maxres": {
+        "url": "https://i.ytimg.com/vi/UOojqzp2MBU/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+       },
+       "qhd": {
+        "url": "https://i.ytimg.com/vi/UOojqzp2MBU/qhddefault.jpg",
+        "width": 2560,
+        "height": 1440
+       }
+      },
+      "channelTitle": "Web Eventuals",
+      "defaultLanguage": "hi",
+      "localized": {
+       "title": "Website Tips for Business Owners (Hinglish)",
+       "description": "Short Hinglish website tips for business owners: social proof, enquiry forms, template vs custom website, local SEO, Google Business Profile aur WhatsApp automation. Har Short mein ek problem aur uska simple fix.\n\nWebsite: https://webeventuals.com"
+      }
+     }
+    },
+    {
+     "kind": "youtube#playlist",
+     "etag": "mJY2o4IM1Mr14VXuqyPfuBtKm6o",
+     "id": "PLIAWHEAbY1ZU",
+     "snippet": {
+      "publishedAt": "2026-09-26T09:31:31.144133Z",
+      "channelId": "UCB2uvZ-zeLryreR2msWBpxQ",
+      "title": "Website Rebuild",
+      "description": "",
+      "thumbnails": {
+       "default": {
+        "url": "https://i.ytimg.com/vi/tEQvni4oa-A/default.jpg",
+        "width": 120,
+        "height": 90
+       },
+       "medium": {
+        "url": "https://i.ytimg.com/vi/tEQvni4oa-A/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+       },
+       "high": {
+        "url": "https://i.ytimg.com/vi/tEQvni4oa-A/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+       },
+       "standard": {
+        "url": "https://i.ytimg.com/vi/tEQvni4oa-A/sddefault.jpg",
+        "width": 640,
+        "height": 480
+       },
+       "maxres": {
+        "url": "https://i.ytimg.com/vi/tEQvni4oa-A/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+       },
+       "shortsAspectRatio": {
+        "url": "https://i.ytimg.com/vi/tEQvni4oa-A/sardefault.jpg",
+        "width": 0,
+        "height": 0
+       }
+      },
+      "channelTitle": "Web Eventuals",
+      "localized": {
+       "title": "Website Rebuild",
+       "description": ""
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "at": "2026-11-16T05:34:45.895225",
+  "platform": "youtube",
+  "method": "POST",
+  "url": "https://www.googleapis.com/youtube/v3/playlists",
+  "status": 200,
+  "response": {
+   "kind": "youtube#playlist",
+   "etag": "pjghkmPyJ4awnILNKIzlTOaZpHs",
+   "id": "PLTwuYELJOAfk",
+   "snippet": {
+    "publishedAt": "2026-11-16T05:34:45.500824474Z",
+    "channelId": "UCB2uvZ-zeLryreR2msWBpxQ",
+    "title": "Dukan Business Tips (Hinglish)",
+    "description": "Kirana aur chhoti dukan ke liye seedhe kaam ke tips, Indian research ke saath.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Web Eventuals",
+    "defaultLanguage": "hi",
+    "localized": {
+     "title": "Dukan Business Tips (Hinglish)",
+     "description": "Kirana aur chhoti dukan ke liye seedhe kaam ke tips, Indian research ke saath."
+    }
+   },
+   "status": {
+    "privacyStatus": "public"
+   }
+  }
+ },
+ {
+  "at": "2026-11-16T05:34:46.235148",
+  "platform": "youtube",
+  "method": "POST",
+  "url": "https://www.googleapis.com/youtube/v3/playlistItems",
+  "status": 409,
+  "response": {
+   "error": {
+    "code": 409,
+    "message": "The operation was aborted.",
+    "errors": [
+     {
+      "domain": "youtube.CoreErrorDomain",
+      "reason": "SERVICE_UNAVAILABLE"
+     }
+    ],
+    "status": "ABORTED"
+   }
+  }
+ }
+]
