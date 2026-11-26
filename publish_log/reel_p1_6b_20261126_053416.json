@@ -1,0 +1,646 @@
+[
+ {
+  "at": "2026-11-26T05:31:22.336700",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media",
+  "status": 200,
+  "response": {
+   "id": "18103208075425006"
+  }
+ },
+ {
+  "at": "2026-11-26T05:31:42.507136",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18103208075425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18103208075425006"
+  }
+ },
+ {
+  "at": "2026-11-26T05:32:02.711135",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18103208075425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18103208075425006"
+  }
+ },
+ {
+  "at": "2026-11-26T05:32:23.003240",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18103208075425006",
+  "status": 200,
+  "response": {
+   "status_code": "IN_PROGRESS",
+   "status": "IN_PROGRESS",
+   "id": "18103208075425006"
+  }
+ },
+ {
+  "at": "2026-11-26T05:32:43.157455",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18103208075425006",
+  "status": 200,
+  "response": {
+   "status_code": "FINISHED",
+   "status": "FINISHED",
+   "id": "18103208075425006"
+  }
+ },
+ {
+  "at": "2026-11-26T05:32:53.294989",
+  "platform": "instagram",
+  "method": "POST",
+  "url": "https://graph.instagram.com/v21.0/17841442750176690/media_publish",
+  "status": 200,
+  "response": {
+   "id": "18115506347227079"
+  }
+ },
+ {
+  "at": "2026-11-26T05:32:53.454534",
+  "platform": "instagram",
+  "method": "GET",
+  "url": "https://graph.instagram.com/v21.0/18115506347227079",
+  "status": 200,
+  "response": {
+   "permalink": "https://www.instagram.com/reel/DgMXD9UBy5l/",
+   "id": "18115506347227079"
+  }
+ },
+ {
+  "at": "2026-11-26T05:32:54.199445",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads",
+  "status": 200,
+  "response": {
+   "id": "17945124579385935"
+  }
+ },
+ {
+  "at": "2026-11-26T05:33:14.419813",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17945124579385935",
+  "status": 200,
+  "response": {
+   "id": "17945124579385935",
+   "status": "IN_PROGRESS"
+  }
+ },
+ {
+  "at": "2026-11-26T05:33:34.635386",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/17945124579385935",
+  "status": 200,
+  "response": {
+   "id": "17945124579385935",
+   "status": "FINISHED"
+  }
+ },
+ {
+  "at": "2026-11-26T05:33:39.969107",
+  "platform": "threads",
+  "method": "POST",
+  "url": "https://graph.threads.net/v1.0/28756370610668741/threads_publish",
+  "status": 200,
+  "response": {
+   "id": "18122132887977285"
+  }
+ },
+ {
+  "at": "2026-11-26T05:33:40.167080",
+  "platform": "threads",
+  "method": "GET",
+  "url": "https://graph.threads.net/v1.0/18122132887977285",
+  "status": 200,
+  "response": {
+   "id": "18122132887977285",
+   "permalink": "https://www.threads.com/@web_eventuals/post/DgMXM9KhBI1"
+  }
+ },
+ {
+  "at": "2026-11-26T05:33:42.058286",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/video_reels",
+  "status": 200,
+  "response": {
+   "video_id": "1801563754393443",
+   "upload_url": "https://rupload.facebook.com/video-upload/v27.0/1801563754393443"
+  }
+ },
+ {
+  "at": "2026-11-26T05:33:45.512997",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://rupload.facebook.com/video-upload/v27.0/1801563754393443",
+  "status": 200,
+  "response": {
+   "success": true,
+   "message": "Upload Successful. To check the status of the video, please follow the instructions listed at https://developers.facebook.com/docs/video-api/guides/reels-publishing#get-the-upload-status."
+  }
+ },
+ {
+  "at": "2026-11-26T05:34:07.176582",
+  "platform": "facebook",
+  "method": "GET",
+  "url": "https://graph.facebook.com/v21.0/1801563754393443",
+  "status": 200,
+  "response": {
+   "status": {
+    "video_status": "upload_complete",
+    "uploading_phase": {
+     "status": "complete",
+     "bytes_transferred": 2428506
+    },
+    "processing_phase": {
+     "status": "not_started"
+    },
+    "publishing_phase": {
+     "status": "not_started"
+    },
+    "copyright_check_status": {
+     "status": "complete",
+     "matches_found": false
+    }
+   },
+   "id": "1801563754393443"
+  }
+ },
+ {
+  "at": "2026-11-26T05:34:10.303157",
+  "platform": "facebook",
+  "method": "POST",
+  "url": "https://graph.facebook.com/v21.0/299752760803587/video_reels",
+  "status": 200,
+  "response": {
+   "success": true,
+   "message": "Video is Processing. To check the status of the video, please follow the instructions listed at https://developers.facebook.com/docs/video-api/guides/reels-publishing#get-the-upload-status.",
+   "post_id": "1677305904409483"
+  }
+ },
+ {
+  "at": "2026-11-26T05:34:12.432320",
+  "platform": "youtube",
+  "method": "PUT",
+  "url": "https://www.googleapis.com/upload/youtube/v3/videos",
+  "status": 200,
+  "response": {
+   "kind": "youtube#video",
+   "etag": "RHfZgXLgfIuKAELbk5MZaTZN3Zg",
+   "id": "Q0tDJPVdVk0",
+   "snippet": {
+    "publishedAt": "2026-11-26T05:34:10Z",
+    "channelId": "UCB2uvZ-zeLryreR2msWBpxQ",
+    "title": "Restaurant khaali? 3 badi galti #Shorts",
+    "description": "रेस्टोरेंट में ग्राहक कैसे बढ़ाएं: ye 3 galtiyan theek kijiye.\n\n1. Lamba menu: best sellers upar, saaf daam.\n2. Google Maps par photos nahi: Google Business Profile par dishes ki photo.\n3. Grahak ko wapas bulane ka tareeka nahi: WhatsApp number, nayi dish ki photo.\n\nAapke menu mein kitni dishes hain? Comment kariye.\n\nWebsite: https://webeventuals.com\nWhatsApp: https://wa.me/918310377082\n\nAise aur business tips ke liye channel subscribe kariye.\n\n#Shorts #RestaurantBusiness #ShopOwner #Restaurant #SmallBusiness",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Q0tDJPVdVk0/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Q0tDJPVdVk0/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Q0tDJPVdVk0/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Web Eventuals",
+    "tags": [
+     "business tips hindi",
+     "hinglish",
+     "local business",
+     "restaurant business",
+     "restaurant marketing",
+     "restaurant me grahak kaise badhaye",
+     "restaurant tips hindi",
+     "shop owner",
+     "small business india",
+     "web eventuals"
+    ],
+    "categoryId": "27",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "hi",
+    "localized": {
+     "title": "Restaurant khaali? 3 badi galti #Shorts",
+     "description": "रेस्टोरेंट में ग्राहक कैसे बढ़ाएं: ye 3 galtiyan theek kijiye.\n\n1. Lamba menu: best sellers upar, saaf daam.\n2. Google Maps par photos nahi: Google Business Profile par dishes ki photo.\n3. Grahak ko wapas bulane ka tareeka nahi: WhatsApp number, nayi dish ki photo.\n\nAapke menu mein kitni dishes hain? Comment kariye.\n\nWebsite: https://webeventuals.com\nWhatsApp: https://wa.me/918310377082\n\nAise aur business tips ke liye channel subscribe kariye.\n\n#Shorts #RestaurantBusiness #ShopOwner #Restaurant #SmallBusiness"
+    },
+    "defaultAudioLanguage": "hi"
+   },
+   "status": {
+    "uploadStatus": "uploaded",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "selfDeclaredMadeForKids": false
+   },
+   "recordingDetails": {
+    "recordingDate": "2026-11-26T00:00:00Z"
+   }
+  }
+ },
+ {
+  "at": "2026-11-26T05:34:15.364692",
+  "platform": "youtube",
+  "method": "POST",
+  "url": "https://www.googleapis.com/upload/youtube/v3/thumbnails/set",
+  "status": 200,
+  "response": {
+   "kind": "youtube#thumbnailSetResponse",
+   "etag": "XuSWueFXNjRmRWMBm5UfN_Xa1Tc",
+   "items": [
+    {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Q0tDJPVdVk0/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Q0tDJPVdVk0/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Q0tDJPVdVk0/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/Q0tDJPVdVk0/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/Q0tDJPVdVk0/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     },
+     "qhd": {
+      "url": "https://i.ytimg.com/vi/Q0tDJPVdVk0/qhddefault.jpg",
+      "width": 2560,
+      "height": 1440
+     }
+    }
+   ]
+  }
+ },
+ {
+  "at": "2026-11-26T05:34:15.501259",
+  "platform": "youtube",
+  "method": "GET",
+  "url": "https://www.googleapis.com/youtube/v3/playlists",
+  "status": 200,
+  "response": {
+   "kind": "youtube#playlistListResponse",
+   "etag": "RRGojux0Cy05zLmSEILsXuMeR6Q",
+   "pageInfo": {
+    "totalResults": 8,
+    "resultsPerPage": 50
+   },
+   "items": [
+    {
+     "kind": "youtube#playlist",
+     "etag": "90awgymyRajgzvWVfXmO3Futm_c",
+     "id": "PLbExOZgQiPeA",
+     "snippet": {
+      "publishedAt": "2026-11-25T05:34:12.116866299Z",
+      "channelId": "UCB2uvZ-zeLryreR2msWBpxQ",
+      "title": "Google Maps Aur Reviews Tips (Hinglish)",
+      "description": "Google Business Profile, Maps listing aur reviews ke tips.",
+      "thumbnails": {
+       "default": {
+        "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+        "width": 120,
+        "height": 90
+       },
+       "medium": {
+        "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+        "width": 320,
+        "height": 180
+       },
+       "high": {
+        "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+        "width": 480,
+        "height": 360
+       }
+      },
+      "channelTitle": "Web Eventuals",
+      "defaultLanguage": "hi",
+      "localized": {
+       "title": "Google Maps Aur Reviews Tips (Hinglish)",
+       "description": "Google Business Profile, Maps listing aur reviews ke tips."
+      }
+     }
+    },
+    {
+     "kind": "youtube#playlist",
+     "etag": "yP947le0nGidEH69M2Vn1ZvGvHk",
+     "id": "PLVLT7HtE7RM0",
+     "snippet": {
+      "publishedAt": "2026-11-24T05:33:49.361330495Z",
+      "channelId": "UCB2uvZ-zeLryreR2msWBpxQ",
+      "title": "Facebook Aur Google Ads Tips (Hinglish)",
+      "description": "Chhote business ke liye ads ke tips.",
+      "thumbnails": {
+       "default": {
+        "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+        "width": 120,
+        "height": 90
+       },
+       "medium": {
+        "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+        "width": 320,
+        "height": 180
+       },
+       "high": {
+        "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+        "width": 480,
+        "height": 360
+       }
+      },
+      "channelTitle": "Web Eventuals",
+      "defaultLanguage": "hi",
+      "localized": {
+       "title": "Facebook Aur Google Ads Tips (Hinglish)",
+       "description": "Chhote business ke liye ads ke tips."
+      }
+     }
+    },
+    {
+     "kind": "youtube#playlist",
+     "etag": "WunEAzg-7Ly0kD3z_2HiPBFClL8",
+     "id": "PLTwuYELJOAfk",
+     "snippet": {
+      "publishedAt": "2026-11-16T05:34:45.500824474Z",
+      "channelId": "UCB2uvZ-zeLryreR2msWBpxQ",
+      "title": "Dukan Business Tips (Hinglish)",
+      "description": "Kirana aur chhoti dukan ke liye seedhe kaam ke tips, Indian research ke saath.",
+      "thumbnails": {
+       "default": {
+        "url": "https://i.ytimg.com/vi/E3UIlB_PIkY/default.jpg",
+        "width": 120,
+        "height": 90
+       },
+       "medium": {
+        "url": "https://i.ytimg.com/vi/E3UIlB_PIkY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+       },
+       "high": {
+        "url": "https://i.ytimg.com/vi/E3UIlB_PIkY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+       },
+       "standard": {
+        "url": "https://i.ytimg.com/vi/E3UIlB_PIkY/sddefault.jpg",
+        "width": 640,
+        "height": 480
+       },
+       "maxres": {
+        "url": "https://i.ytimg.com/vi/E3UIlB_PIkY/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+       },
+       "qhd": {
+        "url": "https://i.ytimg.com/vi/E3UIlB_PIkY/qhddefault.jpg",
+        "width": 2560,
+        "height": 1440
+       }
+      },
+      "channelTitle": "Web Eventuals",
+      "defaultLanguage": "hi",
+      "localized": {
+       "title": "Dukan Business Tips (Hinglish)",
+       "description": "Kirana aur chhoti dukan ke liye seedhe kaam ke tips, Indian research ke saath."
+      }
+     }
+    },
+    {
+     "kind": "youtube#playlist",
+     "etag": "6OL1ZK8SU1D-YXCGg059FHgHCGc",
+     "id": "PLLkTwaCCtYEw",
+     "snippet": {
+      "publishedAt": "2026-11-10T21:40:50.299722Z",
+      "channelId": "UCB2uvZ-zeLryreR2msWBpxQ",
+      "title": "Web Eventuals Software Demos",
+      "description": "Real software built by Web Eventuals, shown working end to end. Custom AI tools, automation and business apps, each demo a live product doing real work. New demos are added as we ship them.\n\nSee every app we’ve built: https://webeventuals.com/what-we-build/\nWant a tool like this built for your business? Talk to Web Eventuals: https://webeventuals.com/contact/",
+      "thumbnails": {
+       "default": {
+        "url": "https://i.ytimg.com/vi/jL6S12ljoS4/default.jpg",
+        "width": 120,
+        "height": 90
+       },
+       "medium": {
+        "url": "https://i.ytimg.com/vi/jL6S12ljoS4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+       },
+       "high": {
+        "url": "https://i.ytimg.com/vi/jL6S12ljoS4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+       },
+       "standard": {
+        "url": "https://i.ytimg.com/vi/jL6S12ljoS4/sddefault.jpg",
+        "width": 640,
+        "height": 480
+       },
+       "maxres": {
+        "url": "https://i.ytimg.com/vi/jL6S12ljoS4/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+       }
+      },
+      "channelTitle": "Web Eventuals",
+      "defaultLanguage": "en",
+      "localized": {
+       "title": "Web Eventuals Software Demos",
+       "description": "Real software built by Web Eventuals, shown working end to end. Custom AI tools, automation and business apps, each demo a live product doing real work. New demos are added as we ship them.\n\nSee every app we’ve built: https://webeventuals.com/what-we-build/\nWant a tool like this built for your business? Talk to Web Eventuals: https://webeventuals.com/contact/"
+      }
+     }
+    },
+    {
+     "kind": "youtube#playlist",
+     "etag": "CQQZ_ZB4e7O632aif2AzytfIHXc",
+     "id": "PLAjchdXH3H5k",
+     "snippet": {
+      "publishedAt": "2026-10-22T20:15:33.754086Z",
+      "channelId": "UCB2uvZ-zeLryreR2msWBpxQ",
+      "title": "Website Tips for Business Owners (Hinglish)",
+      "description": "Short Hinglish website tips for business owners: social proof, enquiry forms, template vs custom website, local SEO, Google Business Profile aur WhatsApp automation. Har Short mein ek problem aur uska simple fix.\n\nWebsite: https://webeventuals.com",
+      "thumbnails": {
+       "default": {
+        "url": "https://i.ytimg.com/vi/UOojqzp2MBU/default.jpg",
+        "width": 120,
+        "height": 90
+       },
+       "medium": {
+        "url": "https://i.ytimg.com/vi/UOojqzp2MBU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+       },
+       "high": {
+        "url": "https://i.ytimg.com/vi/UOojqzp2MBU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+       },
+       "standard": {
+        "url": "https://i.ytimg.com/vi/UOojqzp2MBU/sddefault.jpg",
+        "width": 640,
+        "height": 480
+       },
+       "maxres": {
+        "url": "https://i.ytimg.com/vi/UOojqzp2MBU/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+       },
+       "qhd": {
+        "url": "https://i.ytimg.com/vi/UOojqzp2MBU/qhddefault.jpg",
+        "width": 2560,
+        "height": 1440
+       }
+      },
+      "channelTitle": "Web Eventuals",
+      "defaultLanguage": "hi",
+      "localized": {
+       "title": "Website Tips for Business Owners (Hinglish)",
+       "description": "Short Hinglish website tips for business owners: social proof, enquiry forms, template vs custom website, local SEO, Google Business Profile aur WhatsApp automation. Har Short mein ek problem aur uska simple fix.\n\nWebsite: https://webeventuals.com"
+      }
+     }
+    },
+    {
+     "kind": "youtube#playlist",
+     "etag": "mJY2o4IM1Mr14VXuqyPfuBtKm6o",
+     "id": "PLIAWHEAbY1ZU",
+     "snippet": {
+      "publishedAt": "2026-09-26T09:31:31.144133Z",
+      "channelId": "UCB2uvZ-zeLryreR2msWBpxQ",
+      "title": "Website Rebuild",
+      "description": "",
+      "thumbnails": {
+       "default": {
+        "url": "https://i.ytimg.com/vi/tEQvni4oa-A/default.jpg",
+        "width": 120,
+        "height": 90
+       },
+       "medium": {
+        "url": "https://i.ytimg.com/vi/tEQvni4oa-A/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+       },
+       "high": {
+        "url": "https://i.ytimg.com/vi/tEQvni4oa-A/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+       },
+       "standard": {
+        "url": "https://i.ytimg.com/vi/tEQvni4oa-A/sddefault.jpg",
+        "width": 640,
+        "height": 480
+       },
+       "maxres": {
+        "url": "https://i.ytimg.com/vi/tEQvni4oa-A/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+       },
+       "shortsAspectRatio": {
+        "url": "https://i.ytimg.com/vi/tEQvni4oa-A/sardefault.jpg",
+        "width": 0,
+        "height": 0
+       }
+      },
+      "channelTitle": "Web Eventuals",
+      "localized": {
+       "title": "Website Rebuild",
+       "description": ""
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "at": "2026-11-26T05:34:16.133911",
+  "platform": "youtube",
+  "method": "POST",
+  "url": "https://www.googleapis.com/youtube/v3/playlists",
+  "status": 200,
+  "response": {
+   "kind": "youtube#playlist",
+   "etag": "SuwawZHQoh_1tfTgvSnCVlOjgto",
+   "id": "PLEMkG-fuz3QE",
+   "snippet": {
+    "publishedAt": "2026-11-26T05:34:15.606492332Z",
+    "channelId": "UCB2uvZ-zeLryreR2msWBpxQ",
+    "title": "Grahak Aur Sales Tips (Hinglish)",
+    "description": "Dukan aur local business mein grahak lautaane aur sale badhane ke tips.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Web Eventuals",
+    "defaultLanguage": "hi",
+    "localized": {
+     "title": "Grahak Aur Sales Tips (Hinglish)",
+     "description": "Dukan aur local business mein grahak lautaane aur sale badhane ke tips."
+    }
+   },
+   "status": {
+    "privacyStatus": "public"
+   }
+  }
+ },
+ {
+  "at": "2026-11-26T05:34:16.454127",
+  "platform": "youtube",
+  "method": "POST",
+  "url": "https://www.googleapis.com/youtube/v3/playlistItems",
+  "status": 409,
+  "response": {
+   "error": {
+    "code": 409,
+    "message": "The operation was aborted.",
+    "errors": [
+     {
+      "domain": "youtube.CoreErrorDomain",
+      "reason": "SERVICE_UNAVAILABLE"
+     }
+    ],
+    "status": "ABORTED"
+   }
+  }
+ }
+]
