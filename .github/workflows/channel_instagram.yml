@@ -1,0 +1,29 @@
+name: channel-instagram
+on:
+  schedule:
+    - cron: "7 * * * *"  # hourly; GitHub may start it a few to ~30 minutes late
+  workflow_dispatch:
+concurrency: channel-instagram
+permissions:
+  contents: write
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Post due Instagram entries
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: |
+          mkdir -p channels/instagram
+          pip install --quiet requests
+          python3 scripts/channel_instagram.py
+      - name: Save posted ids and raw log
+        if: always()
+        run: |
+          git config user.name "instagram-poster"
+          git config user.email "instagram-poster@users.noreply.github.com"
+          git add channels/instagram publish_log
+          git diff --cached --quiet || (git commit -m "instagram posted" && git pull --rebase && git push)
